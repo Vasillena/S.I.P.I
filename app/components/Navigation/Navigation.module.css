@@ -20,17 +20,12 @@
   width: 100%;
   z-index: 100;
   background-color: #f170a9;
+  box-shadow: 1px 0 0.8rem gray;
   /* background-color: transparent; */
-  transition: background-color 0.3s ease;
+  /* transition: background-color 0.3s ease; */
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 0.8em;
-}
-
-.blur-background {
-  /* -webkit-backdrop-filter: blur(20px); */
-  /* background-color: #f170a9; */
-  box-shadow: 1px 0 0.8rem gray;
 }
 
 /* 

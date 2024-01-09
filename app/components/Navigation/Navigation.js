@@ -8,20 +8,7 @@ import logoImg from "@/public/sipi_logo.ico";
 import classes from "./Navigation.module.css";
 
 export default function Navigation() {
-  const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
@@ -32,14 +19,7 @@ export default function Navigation() {
   };
 
   return (
-    // <header
-    //   className={classes.header && isScrolled ? classes["blur-background"] : ""}
-    // >
-    <header
-      className={`${classes.header} ${
-        isScrolled ? classes["blur-background"] : ""
-      }`}
-    >
+    <header className={classes.header}>
       <div>
         <div>
           {/* <button className="menu-button" onClick={toggleMenu}>
@@ -73,6 +53,15 @@ export default function Navigation() {
                 onClick={closeMenu}
               >
                 Menu
+              </Link>
+            </li>
+            <li className={classes["navbar-item"]}>
+              <Link
+                href="/merch"
+                className={classes["navbar-link"]}
+                onClick={closeMenu}
+              >
+                Merch
               </Link>
             </li>
           </ul>
