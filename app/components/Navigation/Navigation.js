@@ -64,6 +64,15 @@ export default function Navigation() {
                 Merch
               </Link>
             </li>
+            <li className={classes["navbar-item"]}>
+              <Link
+                href="/reserve"
+                className={classes["navbar-link"]}
+                onClick={closeMenu}
+              >
+                Reserve
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>
