@@ -1,0 +1,49 @@
+.party-container {
+  width: 100%;
+  min-height: 70em;
+  margin: 10em auto;
+  text-align: center;
+}
+
+.spots-container {
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+  margin: 3em 0;
+}
+
+.spots button {
+  all: unset;
+  cursor: pointer;
+}
+
+.spots img {
+  width: 5em;
+  height: auto;
+}
+
+.spots:hover {
+  transform: translateY(-0.2em);
+}
+
+.modal {
+  transform: scale(0);
+  transform-origin: center;
+  visibility: hidden;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 5em;
+  text-align: center;
+}
+
+.show {
+  transform: scale(1);
+  visibility: visible;
+  transition: transform 0.5s ease, visibility 0.5s ease;
+}
+
+.modal-image {
+  width: auto;
+  height: 80vh;
+}
