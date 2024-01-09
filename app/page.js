@@ -9,7 +9,6 @@ import logoImg from "@/public/logo2.png";
 export default function App() {
   return (
     <main className={styles.main}>
-      {/* <Home /> */}
       <ImageSlideshow />
       <WhoAreWe />
       <FixedImage />
