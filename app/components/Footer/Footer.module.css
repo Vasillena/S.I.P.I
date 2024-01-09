@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f170a9;
+  padding: 1em;
+}
+
+.footer-list {
+  display: flex;
+  gap: 20em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.footer-list li:hover {
+  transform: translateY(-0.2em);
+}
+
+.github-link {
+  color: wheat;
+  font-weight: bold;
+}
