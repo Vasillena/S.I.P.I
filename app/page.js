@@ -4,6 +4,8 @@ import ImageSlideshow from "./components/Slideshow/Slideshow";
 import WhoAreWe from "./components/WhoAreWe/WhoAreWe";
 import FixedImage from "./components/FixedImage/FixedImage";
 
+import logoImg from "@/public/logo2.png";
+
 export default function App() {
   return (
     <main className={styles.main}>
@@ -11,6 +13,7 @@ export default function App() {
       <ImageSlideshow />
       <WhoAreWe />
       <FixedImage />
+      <Image src={logoImg} alt="Logo" width={250} />
     </main>
   );
 }
