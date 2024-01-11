@@ -1,11 +1,11 @@
-.party-container {
+.menu-container {
   width: 100%;
   min-height: 60em;
   padding: 14em 0 0 0;
   text-align: center;
 }
 
-.party-container h1 {
+.menu-container h1 {
   animation: sliderReveal 1s ease forwards;
 }
 
@@ -15,36 +15,32 @@
   animation-delay: 0.6s;
 }
 
-.party-container img {
+.menu-container img {
   opacity: 0;
   animation: sliderReveal 1s ease forwards;
   animation-delay: 1.2s;
 }
 
-.spots-container p {
-  opacity: 0;
-  animation: sliderReveal 1s ease forwards;
-  animation-delay: 1.8s;
-}
-
-.spots-container {
+.menu {
   display: flex;
   justify-content: center;
   gap: 5em;
   margin: 3em 0;
 }
 
-.spots button {
+.menu-section button {
   all: unset;
   cursor: pointer;
 }
 
-.spots img {
+.menu-section img {
   width: 5em;
   height: auto;
+  border: 1px solid black;
+  border-radius: 0.3em;
 }
 
-.spots:hover {
+.menu-section:hover {
   transform: translateY(-0.2em);
 }
 

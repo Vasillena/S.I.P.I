@@ -41,7 +41,9 @@ export default function Party() {
     <>
       <div className={classes["party-container"]}>
         <h1>Make your own party</h1>
-        <p>Your corporate and special event in the heart of Kapana, Plovdiv</p>
+        <p className={classes["title-paragraph"]}>
+          Your corporate and special event in the heart of Kapana, Plovdiv
+        </p>
         <div className={classes["spots-container"]}>
           <div className={classes.spots}>
             <button className={classes["party-1"]} onClick={() => showModal(0)}>
