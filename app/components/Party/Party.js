@@ -40,10 +40,13 @@ export default function Party() {
   return (
     <>
       <div className={classes["party-container"]}>
-        <h1>Make your own party</h1>
-        <p className={classes["title-paragraph"]}>
-          Your corporate and special event in the heart of Kapana, Plovdiv
-        </p>
+        <div className={classes["title-container"]}>
+          <h1>Make your own party</h1>
+          <p>
+            Your corporate and special event in the heart of Kapana, Plovdiv
+          </p>
+        </div>
+
         <div className={classes["spots-container"]}>
           <div className={classes.spots}>
             <button className={classes["party-1"]} onClick={() => showModal(0)}>
@@ -62,6 +65,32 @@ export default function Party() {
               <Image src={image3} alt="Terrace icon" />
               <p>Terrace</p>
             </button>
+          </div>
+        </div>
+        <div className={classes["text-container"]}>
+          <p>
+            With its unique location in the heart of Kapana, SIPI has the
+            perfect setting and organizational skills <br /> to make your event
+            unforgettable!
+          </p>
+          <br />
+          <h1>Contact us</h1>
+          <div className={classes.contact}>
+            <div>
+              <p>Manager</p>
+              <h2>
+                Nikolay Glavchev <br />
+                0878 10 49 19
+              </h2>
+            </div>
+            <div>
+              <p>Event Manager</p>
+              <h2>
+                Dimitar Petrov
+                <br />
+                0889 72 40 90
+              </h2>
+            </div>
           </div>
         </div>
       </div>

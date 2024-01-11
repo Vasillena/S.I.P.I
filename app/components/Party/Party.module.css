@@ -5,33 +5,30 @@
   text-align: center;
 }
 
-.party-container h1 {
+.title-container {
   animation: sliderReveal 1s ease forwards;
 }
 
-.title-paragraph {
+/* .party-container img {
   opacity: 0;
   animation: sliderReveal 1s ease forwards;
   animation-delay: 0.6s;
-}
-
-.party-container img {
-  opacity: 0;
-  animation: sliderReveal 1s ease forwards;
-  animation-delay: 1.2s;
 }
 
 .spots-container p {
   opacity: 0;
   animation: sliderReveal 1s ease forwards;
   animation-delay: 1.8s;
-}
+} */
 
 .spots-container {
   display: flex;
   justify-content: center;
   gap: 5em;
   margin: 3em 0;
+  opacity: 0;
+  animation: sliderReveal 1s ease forwards;
+  animation-delay: 0.6s;
 }
 
 .spots button {
@@ -48,6 +45,27 @@
   transform: translateY(-0.2em);
 }
 
+.text-container p {
+  opacity: 0;
+  animation: sliderReveal 1s ease forwards;
+  animation-delay: 0.6s;
+}
+
+.text-container h1 {
+  opacity: 0;
+  animation: sliderReveal 1s ease forwards;
+  animation-delay: 1.2s;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 4em;
+  opacity: 0;
+  animation: sliderReveal 1s ease forwards;
+  animation-delay: 1.2s;
+}
+
 .modal {
   transform: scale(0);
   transform-origin: center;
@@ -62,12 +80,13 @@
 .show {
   transform: scale(1);
   visibility: visible;
-  transition: transform 0.5s ease, visibility 0.5s ease;
+  transition: transform 1s ease, visibility 1s ease;
 }
 
 .modal-image {
   width: auto;
   height: 80vh;
+  border-radius: 0.5em;
 }
 
 @keyframes sliderReveal {
