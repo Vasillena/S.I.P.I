@@ -1,4 +1,5 @@
 import Menu from "../components/Menu/Menu";
+// import MenuItems from "../components/MenuItems/MenuItems";
 
 export default function MenuPage() {
   return (
@@ -11,6 +12,7 @@ export default function MenuPage() {
     // }}
     >
       <Menu />
+      {/* <MenuItems /> */}
     </div>
   );
 }

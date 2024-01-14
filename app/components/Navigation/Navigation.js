@@ -44,6 +44,15 @@ export default function Navigation() {
             <div className={classes["second-list"]}>
               <li className={classes["navbar-item"]}>
                 <Link
+                  href="/about-us"
+                  className={classes["navbar-link"]}
+                  onClick={closeMenu}
+                >
+                  About us
+                </Link>
+              </li>
+              <li className={classes["navbar-item"]}>
+                <Link
                   href="/make-a-party"
                   className={classes["navbar-link"]}
                   onClick={closeMenu}
