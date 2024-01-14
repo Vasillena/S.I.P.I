@@ -1,0 +1,75 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "category": "Cocktails",
+      "name": "Negroni",
+      "price": "11.50 BGN",
+      "quantity": "120 ml",
+      "description": "Test"
+    },
+    {
+      "id": 2,
+      "category": "Cocktails",
+      "name": "Mojito",
+      "price": "12.00 BGN",
+      "quantity": "180 ml",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "category": "Cocktails",
+      "name": "Aperol Spritz",
+      "price": "11.30 BGN",
+      "quantity": "200 ml",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "category": "Cocktails",
+      "name": "Aperol Spritz",
+      "price": "11.30 BGN",
+      "quantity": "200 ml",
+      "description": ""
+    },
+    {
+      "id": 5,
+      "category": "Cocktails",
+      "name": "Rose Spritz",
+      "price": "11.30 BGN",
+      "quantity": "200 ml",
+      "description": ""
+    },
+    {
+      "id": 6,
+      "category": "Cocktails",
+      "name": "Apple Sour",
+      "price": "11.30 BGN",
+      "quantity": "180 ml",
+      "description": ""
+    },
+    {
+      "id": 7,
+      "category": "Cocktails",
+      "name": "Moscow Mule",
+      "price": "11.50 BGN",
+      "quantity": "180 ml",
+      "description": ""
+    },
+    {
+      "id": 8,
+      "category": "Cocktails",
+      "name": "Tommy's Margarita",
+      "price": "12.50 BGN",
+      "quantity": "150 ml",
+      "description": ""
+    },
+    {
+      "id": 9,
+      "category": "Soft Drinks",
+      "name": "Mineral water",
+      "price": "2.50 BGN",
+      "quantity": "330 ml"
+    }
+  ]
+}
