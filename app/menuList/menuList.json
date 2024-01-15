@@ -70,6 +70,629 @@
       "name": "Mineral water",
       "price": "2.50 BGN",
       "quantity": "330 ml"
+    },
+    {
+      "id": 10,
+      "category": "Soft Drinks",
+      "name": "Sparkling water",
+      "price": "2.80 BGN",
+      "quantity": "330 ml"
+    },
+    {
+      "id": 11,
+      "category": "Soft Drinks",
+      "name": "Schweppes Tonic",
+      "price": "2.90 BGN",
+      "quantity": "250 ml"
+    },
+    {
+      "id": 12,
+      "category": "Soft Drinks",
+      "name": "Coca-Cola",
+      "price": "2.80 BGN",
+      "quantity": "250 ml"
+    },
+    {
+      "id": 13,
+      "category": "Soft Drinks",
+      "name": "Ice Tea FuzeTea",
+      "price": "3.50 BGN",
+      "quantity": "250 ml"
+    },
+    {
+      "id": 14,
+      "category": "Soft Drinks",
+      "name": "Juice Grenno",
+      "price": "4.10 BGN",
+      "quantity": "250 ml"
+    },
+    {
+      "id": 15,
+      "category": "Soft Drinks",
+      "name": "Red Bull",
+      "price": "6.00 BGN",
+      "quantity": "250 ml"
+    },
+    {
+      "id": 16,
+      "category": "Soft Drinks",
+      "name": "Ginger Beer",
+      "price": "6.00 BGN",
+      "quantity": "200 ml"
+    },
+    {
+      "id": 17,
+      "category": "Soft Drinks",
+      "name": "Premium Tonic Water",
+      "price": "5.10 BGN",
+      "quantity": "200 ml"
+    },
+    {
+      "id": 18,
+      "category": "Soft Drinks",
+      "name": "Perrier",
+      "price": "5.10 BGN",
+      "quantity": "330 ml"
+    },
+    {
+      "id": 19,
+      "category": "Soft Drinks",
+      "name": "Lemonade",
+      "price": "5.70 BGN",
+      "quantity": "300 ml",
+      "description": ""
+    },
+    {
+      "id": 20,
+      "category": "Hot Drinks",
+      "name": "Coffee Costa",
+      "price": "5.70 BGN",
+      "quantity": "60 ml"
+    },
+    {
+      "id": 21,
+      "category": "Hot Drinks",
+      "name": "Tea",
+      "price": "4.20 BGN",
+      "quantity": "300 ml",
+      "description": ""
+    },
+    {
+      "id": 21,
+      "category": "Alcohol",
+      "name": "Naked Grouse",
+      "price": "10.30 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 22,
+      "category": "Alcohol",
+      "name": "Monkey Shoulder",
+      "price": "10.30 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 23,
+      "category": "Alcohol",
+      "name": "Grant's",
+      "price": "7.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 24,
+      "category": "Alcohol",
+      "name": "Famous Grouse",
+      "price": "7.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 25,
+      "category": "Alcohol",
+      "name": "Johnnie Walker Black Label",
+      "price": "10.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 26,
+      "category": "Alcohol",
+      "name": "Naked Grouse",
+      "price": "10.30 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 27,
+      "category": "Alcohol",
+      "name": "Glendalough",
+      "price": "10.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 28,
+      "category": "Alcohol",
+      "name": "Tullamore D.E.W.",
+      "price": "7.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 29,
+      "category": "Alcohol",
+      "name": "Jameson",
+      "price": "7.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 30,
+      "category": "Alcohol",
+      "name": "Proper Twelve",
+      "price": "7.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 31,
+      "category": "Alcohol",
+      "name": "Woodford Reserve",
+      "price": "11.30 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 32,
+      "category": "Alcohol",
+      "name": "Gentleman Jack",
+      "price": "11.30 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 33,
+      "category": "Alcohol",
+      "name": "Jack Daniel's",
+      "price": "9.30 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 34,
+      "category": "Alcohol",
+      "name": "Wild Turkey",
+      "price": "8.30 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 35,
+      "category": "Alcohol",
+      "name": "Maker's Mark",
+      "price": "11.30 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 36,
+      "category": "Alcohol",
+      "name": "Jim Beam Rye",
+      "price": "8.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 37,
+      "category": "Alcohol",
+      "name": "Macallan 12y.o.",
+      "price": "20.00 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 38,
+      "category": "Alcohol",
+      "name": "Glenfiddich 12y.o.",
+      "price": "11.30 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 39,
+      "category": "Alcohol",
+      "name": "Glenfiddich 15y.o.",
+      "price": "15.30 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 40,
+      "category": "Alcohol",
+      "name": "Glenfiddich 18y.o.",
+      "price": "20.30 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 41,
+      "category": "Alcohol",
+      "name": "Highland Park 12y.o.",
+      "price": "15.30 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 42,
+      "category": "Alcohol",
+      "name": "Arran 10y.o.",
+      "price": "13.30 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 43,
+      "category": "Alcohol",
+      "name": "Glen Grant 10y.o.",
+      "price": "10.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 44,
+      "category": "Alcohol",
+      "name": "Finlandia",
+      "price": "6.80 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 45,
+      "category": "Alcohol",
+      "name": "Finlandia Botanical",
+      "price": "7.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 46,
+      "category": "Alcohol",
+      "name": "Reyka",
+      "price": "8.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 47,
+      "category": "Alcohol",
+      "name": "Beluga Noble",
+      "price": "14.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 48,
+      "category": "Alcohol",
+      "name": "Grey Goose",
+      "price": "15.00 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 49,
+      "category": "Alcohol",
+      "name": "Hendrick's",
+      "price": "10.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 50,
+      "category": "Alcohol",
+      "name": "Bulldog",
+      "price": "8.30 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 51,
+      "category": "Alcohol",
+      "name": "Glendalough",
+      "price": "10.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 52,
+      "category": "Alcohol",
+      "name": "Bicken's",
+      "price": "7.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 53,
+      "category": "Alcohol",
+      "name": "Votanikon",
+      "price": "8.30 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 54,
+      "category": "Alcohol",
+      "name": "JJ Whitley",
+      "price": "7.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 55,
+      "category": "Alcohol",
+      "name": "Angostura reserva",
+      "price": "7.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 56,
+      "category": "Alcohol",
+      "name": "Angostura 5y.o.",
+      "price": "8.30 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 57,
+      "category": "Alcohol",
+      "name": "Angostura 7y.o.",
+      "price": "10.30 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 58,
+      "category": "Alcohol",
+      "name": "Sailor Jerry",
+      "price": "8.30 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 59,
+      "category": "Alcohol",
+      "name": "Brugal 1888",
+      "price": "20.00 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 60,
+      "category": "Alcohol",
+      "name": "Sierra Antiguo",
+      "price": "4.50 BGN",
+      "quantity": "50 ml",
+      "description": "Plata / Anejo"
+    },
+    {
+      "id": 61,
+      "category": "Alcohol",
+      "name": "Herradura Reposado",
+      "price": "6.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 62,
+      "category": "Alcohol",
+      "name": "Topanito",
+      "price": "5.00 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 63,
+      "category": "Alcohol",
+      "name": "Hennesy",
+      "price": "10.90 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 64,
+      "category": "Alcohol",
+      "name": "Metaxa",
+      "price": "7.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 65,
+      "category": "Alcohol",
+      "name": "Rakia Tikves",
+      "price": "6.80 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 66,
+      "category": "Alcohol",
+      "name": "Rakia Zlatna Dunja",
+      "price": "7.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 67,
+      "category": "Alcohol",
+      "name": "Skinos",
+      "price": "4.20 BGN",
+      "quantity": "25 ml"
+    },
+    {
+      "id": 68,
+      "category": "Alcohol",
+      "name": "Jagermeister",
+      "price": "4.20 BGN",
+      "quantity": "25 ml"
+    },
+    {
+      "id": 69,
+      "category": "Alcohol",
+      "name": "Aftershock",
+      "price": "4.20 BGN",
+      "quantity": "25 ml"
+    },
+    {
+      "id": 70,
+      "category": "Alcohol",
+      "name": "Cazcabel Coffee",
+      "price": "4.20 BGN",
+      "quantity": "25 ml"
+    },
+    {
+      "id": 71,
+      "category": "Alcohol",
+      "name": "Tatratea",
+      "price": "4.20 BGN",
+      "quantity": "25 ml"
+    },
+    {
+      "id": 72,
+      "category": "Alcohol",
+      "name": "Campari",
+      "price": "3.60 BGN",
+      "quantity": "25 ml"
+    },
+    {
+      "id": 73,
+      "category": "Alcohol",
+      "name": "Disaronno",
+      "price": "3.60 BGN",
+      "quantity": "25 ml"
+    },
+    {
+      "id": 74,
+      "category": "Alcohol",
+      "name": "Baileys",
+      "price": "3.60 BGN",
+      "quantity": "25 ml"
+    },
+    {
+      "id": 75,
+      "category": "Alcohol",
+      "name": "Branca Menta",
+      "price": "3.60 BGN",
+      "quantity": "25 ml"
+    },
+    {
+      "id": 76,
+      "category": "Alcohol",
+      "name": "Aperol",
+      "price": "7.50 BGN",
+      "quantity": "50 ml"
+    },
+    {
+      "id": 77,
+      "category": "Alcohol",
+      "name": "Liquor 43",
+      "price": "3.60 BGN",
+      "quantity": "25 ml"
+    },
+    {
+      "id": 78,
+      "category": "Beer",
+      "name": "Stella Artois",
+      "price": "6.00 BGN",
+      "quantity": "330 ml"
+    },
+    {
+      "id": 79,
+      "category": "Beer",
+      "name": "Corona",
+      "price": "7.00 BGN",
+      "quantity": "330 ml"
+    },
+    {
+      "id": 80,
+      "category": "Beer",
+      "name": "Beck's",
+      "price": "5.00 BGN",
+      "quantity": "330 ml"
+    },
+    {
+      "id": 81,
+      "category": "Beer",
+      "name": "Hoegaarden",
+      "price": "7.00 BGN",
+      "quantity": "330 ml"
+    },
+    {
+      "id": 82,
+      "category": "Beer",
+      "name": "Leffe",
+      "price": "7.00 BGN",
+      "quantity": "330 ml"
+    },
+    {
+      "id": 83,
+      "category": "Beer",
+      "name": "Kamenitsa",
+      "price": "4.50 BGN",
+      "quantity": "330 ml"
+    },
+    {
+      "id": 84,
+      "category": "Beer",
+      "name": "Staropramen 0.0",
+      "price": "5.00 BGN",
+      "quantity": "330 ml"
+    },
+    {
+      "id": 85,
+      "category": "Wine",
+      "name": "Zlaten Rozhen",
+      "price": "7.50 BGN",
+      "quantity": "150 ml",
+      "description": "Sauvignon Blanc & Misket"
+    },
+    {
+      "id": 86,
+      "category": "Wine",
+      "name": "Cormons",
+      "price": "50.00 BGN",
+      "quantity": "750 ml",
+      "description": "Sauvignon / Pinot Grigio"
+    },
+    {
+      "id": 87,
+      "category": "Wine",
+      "name": "Livio Felluga",
+      "price": "100.00 BGN",
+      "quantity": "750 ml",
+      "description": ""
+    },
+    {
+      "id": 88,
+      "category": "Wine",
+      "name": "Zlaten Rozhen",
+      "price": "7.50 BGN",
+      "quantity": "150 ml",
+      "description": "Sangiovese & Shiroka Melnishka"
+    },
+    {
+      "id": 89,
+      "category": "Wine",
+      "name": "Chateau Montaud",
+      "price": "50.00 BGN",
+      "quantity": "750 ml",
+      "description": "Cincault & Grenache & Syrah"
+    },
+    {
+      "id": 90,
+      "category": "Wine",
+      "name": "Chaetau Miraval",
+      "price": "90.00 BGN",
+      "quantity": "750 ml",
+      "description": "Cotes de Provence"
+    },
+    {
+      "id": 91,
+      "category": "Wine",
+      "name": "Zlaten Rozhen",
+      "price": "7.50 BGN",
+      "quantity": "150 ml",
+      "description": "Syrah"
+    },
+    {
+      "id": 92,
+      "category": "Wine",
+      "name": "Famille Perrin",
+      "price": "50.00 BGN",
+      "quantity": "750 ml",
+      "description": "Mourvedre & Grenache & Syrah"
+    },
+    {
+      "id": 93,
+      "category": "Wine",
+      "name": "Bottega",
+      "price": "47.00 BGN",
+      "quantity": "750 ml",
+      "description": ""
+    },
+    {
+      "id": 94,
+      "category": "Wine",
+      "name": "Bottega",
+      "price": "17.00 BGN",
+      "quantity": "200 ml",
+      "description": ""
+    },
+    {
+      "id": 95,
+      "category": "Wine",
+      "name": "1818",
+      "price": "130.00 BGN",
+      "quantity": "750 ml",
+      "description": ""
     }
   ]
 }

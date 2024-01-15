@@ -1,16 +1,15 @@
 import Contact from "../components/Contact/Contact";
+import GoogleMaps from "../components/GoogleMaps/GoogleMaps";
 
-export default function Reserve() {
+export default function ReservePage() {
   return (
     <div
-    // style={{
-    //   background: "url(/logo3.png)",
-    //   backgroundSize: "60% auto",
-    //   backgroundPosition: "center 60%",
-    //   backgroundRepeat: "no-repeat",
-    // }}
+      style={{
+        minHeight: "calc(100vh - 97px)",
+      }}
     >
       <Contact />;
+      <GoogleMaps />
     </div>
   );
 }
