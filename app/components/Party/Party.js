@@ -9,11 +9,11 @@ import image1 from "@/public/party-icon-1.png";
 import image2 from "@/public/party-icon-2.png";
 import image3 from "@/public/party-icon-3.png";
 
-import image4 from "@/public/party-1.png";
-import image5 from "@/public/party-2.png";
-import image6 from "@/public/party-3.png";
+import image4 from "@/public/party-4.png";
+import image5 from "@/public/party-5.png";
+import image6 from "@/public/party-6.png";
 
-import image7 from "@/public/test2.png";
+import arrow from "@/public/arrow.gif";
 
 export default function Party() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -51,22 +51,33 @@ export default function Party() {
 
         <div className={classes["spots-container"]}>
           <div className={classes.spots}>
-            <button className={classes["party-1"]} onClick={() => showModal(0)}>
+            <Image className={classes["arrow-1"]} src={arrow} alt="Arrow" />
+            <button
+              className={classes["party-btn-1"]}
+              onClick={() => showModal(0)}
+            >
               <Image src={image1} alt="Bar icon" />
               <p>Inner Hall</p>
             </button>
           </div>
           <div className={classes.spots}>
-            <button className={classes["party-2"]} onClick={() => showModal(1)}>
+            <button
+              className={classes["party-btn-2"]}
+              onClick={() => showModal(1)}
+            >
               <Image src={image2} alt="Garden icon" />
               <p>Garden</p>
             </button>
           </div>
           <div className={classes.spots}>
-            <button className={classes["party-3"]} onClick={() => showModal(2)}>
+            <button
+              className={classes["party-btn-3"]}
+              onClick={() => showModal(2)}
+            >
               <Image src={image3} alt="Terrace icon" />
               <p>Terrace</p>
             </button>
+            <Image className={classes["arrow-2"]} src={arrow} alt="Arrow" />
           </div>
         </div>
         <div className={classes["text-container"]}>
@@ -95,7 +106,6 @@ export default function Party() {
             </div>
           </div>
         </div>
-        <Image className={classes.frog} src={image7} alt="Frog" />
       </div>
       <div className={`${classes.modal} ${isModalOpen ? classes.show : ""}`}>
         {selectedImageIndex !== null && (

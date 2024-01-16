@@ -1,12 +1,8 @@
 import classes from "./AboutUs.module.css";
 
-import Image from "next/image";
-import image1 from "@/public/test.png";
-
 export default function AboutUs() {
   return (
     <div className={classes["about-us"]}>
-      <Image src={image1} alt="Frog" />
       <h1> What is Lorem Ipsum?</h1>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting

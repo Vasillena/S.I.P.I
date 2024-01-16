@@ -5,13 +5,16 @@
   align-items: center;
   text-align: center;
   line-height: 2em;
-  padding: 14em 0 0 0;
+  padding: 10em 0 0 0;
 }
 
 .contact-image {
   width: 20em;
   height: auto;
-  animation: sliderReveal 1s ease forwards;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: levitate;
 }
 
 .contact h1 {
@@ -34,5 +37,19 @@
   100% {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+@keyframes levitate {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(30px);
+  }
+
+  100% {
+    transform: translateY(0);
   }
 }
