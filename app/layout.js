@@ -3,6 +3,7 @@ import "./globals.css";
 import { Gloria_Hallelujah } from "next/font/google";
 import Navigation from "./components/Navigation/Navigation";
 import Footer from "./components/Footer/Footer";
+import Socials from "./components/Socials/Socials";
 
 // const inter = Inter({ subsets: ["latin"] });
 const gloriaHallelujah = Gloria_Hallelujah({
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         <body className={gloriaHallelujah.className}>
           <Navigation />
           {children}
+          <Socials />
           <Footer />
         </body>
       </html>

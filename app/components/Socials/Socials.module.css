@@ -1,0 +1,24 @@
+.socials-container {
+  position: fixed;
+  bottom: 6em;
+  right: 2em;
+}
+
+.socials-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.socials-link {
+  color: white;
+  background-color: black;
+  padding: 0.1em 0.75em;
+  border-radius: 2em;
+  box-shadow: 1px 0 0.8rem gray;
+}
+
+.socials-link img {
+  width: 11px;
+  height: 13px;
+}
