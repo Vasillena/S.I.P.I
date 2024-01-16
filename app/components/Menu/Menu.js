@@ -12,6 +12,8 @@ import image4 from "@/public/menu-4.png";
 import image5 from "@/public/menu-5.png";
 import image6 from "@/public/menu-6.png";
 
+import image7 from "@/public/test3.png";
+
 import menuList from "../../menuList/menuList.json";
 
 export default function Menu() {
@@ -39,6 +41,7 @@ export default function Menu() {
               )}
             </div>
           ))}
+          <Image className={classes.frog} src={image7} alt="Frog" />
         </div>
       );
       // if (selectedTab === "HotDrinks") {

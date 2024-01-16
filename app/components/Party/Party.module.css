@@ -64,6 +64,14 @@
   opacity: 0;
   animation: sliderReveal 1s ease forwards;
   animation-delay: 1.2s;
+  margin-bottom: 1em;
+}
+
+.frog {
+  width: 15em;
+  height: auto;
+  margin-left: 4em;
+  animation: sliderReveal 1s ease forwards;
 }
 
 .modal {

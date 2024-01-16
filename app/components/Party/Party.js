@@ -13,6 +13,8 @@ import image4 from "@/public/party-1.png";
 import image5 from "@/public/party-2.png";
 import image6 from "@/public/party-3.png";
 
+import image7 from "@/public/test2.png";
+
 export default function Party() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
@@ -93,6 +95,7 @@ export default function Party() {
             </div>
           </div>
         </div>
+        <Image className={classes.frog} src={image7} alt="Frog" />
       </div>
       <div className={`${classes.modal} ${isModalOpen ? classes.show : ""}`}>
         {selectedImageIndex !== null && (

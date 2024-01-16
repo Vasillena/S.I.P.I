@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+.frog {
+  width: 24em;
+  height: auto;
+}
+
 .menu-container h1 {
   animation: sliderReveal 1s ease forwards;
 }
