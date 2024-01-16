@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
 import { useState } from "react";
 import Image from "next/image";
 import classes from "./Menu.module.css";
@@ -11,8 +10,6 @@ import image3 from "@/public/menu-3.png";
 import image4 from "@/public/menu-4.png";
 import image5 from "@/public/menu-5.png";
 import image6 from "@/public/menu-6.png";
-
-import image7 from "@/public/test3.png";
 
 import menuList from "../../menuList/menuList.json";
 
@@ -34,52 +31,20 @@ export default function Menu() {
           <h2>{categoryName.category}</h2>
           {selectedCategory.map((item) => (
             <div key={item.id} className={classes["menu-card"]}>
-              <p>{item.name}</p>
-              <p>{`${item.price} / ${item.quantity}`}</p>
+              <div className={classes["name-price"]}>
+                <p>{item.name}</p>
+                <p>{`${item.price} / ${item.quantity}`}</p>
+              </div>
               {item.description && (
                 <p className={classes.description}>{item.description}</p>
               )}
             </div>
           ))}
-          <Image className={classes.frog} src={image7} alt="Frog" />
         </div>
       );
-      // if (selectedTab === "HotDrinks") {
-      //   return (
-      //     <div
-      //       className={classes.card}
-      //     >
-      //       <h2>Hot Drinks</h2>
-      //       <div className={classes["menu-card"]}>
-      //         <p>Coffee</p>
-      //         <p>2.69 BGN / 50 ml</p>
-      //       </div>
-      //       <div className={classes["menu-card"]}>
-      //         <p>Tea</p>
-      //         <p>3.69 BGN / 250 ml</p>
-      //       </div>
-      //     </div>
-      //   );
     } else {
       return <div className={classes.card}></div>;
     }
-    // else if (selectedTab === "SoftDrinks") {
-    //   return (
-    //     <div
-    //       className={classes.card}
-    //     >
-    //       <h2>Soft Drinks</h2>
-    //       <div className={classes["menu-card"]}>
-    //         <p>Mineral water</p>
-    //         <p>2.50 BGN / 330 ml</p>
-    //       </div>
-    //       <div className={classes["menu-card"]}>
-    //         <p>Sparkling water</p>
-    //         <p>2.80 BGN / 330 ml</p>
-    //       </div>
-    //     </div>
-    //   );
-    // }
   };
 
   return (
@@ -94,6 +59,7 @@ export default function Menu() {
             >
               <Image src={image1} alt="Coffee icon" />
             </button>
+            <p className={classes["menu-titles"]}>Hot Drinks</p>
           </div>
           <div className={classes["menu-section"]}>
             <button
@@ -102,6 +68,7 @@ export default function Menu() {
             >
               <Image src={image2} alt="Soft drinks icon" />
             </button>
+            <p className={classes["menu-titles"]}>Soft Drinks</p>
           </div>
           <div className={classes["menu-section"]}>
             <button
@@ -110,6 +77,7 @@ export default function Menu() {
             >
               <Image src={image3} alt="Cocktail icon" />
             </button>
+            <p className={classes["menu-titles"]}>Cocktails</p>
           </div>
           <div className={classes["menu-section"]}>
             <button
@@ -118,6 +86,7 @@ export default function Menu() {
             >
               <Image src={image4} alt="Wine icon" />
             </button>
+            <p className={classes["menu-titles"]}>Wine</p>
           </div>
           <div className={classes["menu-section"]}>
             <button
@@ -126,6 +95,7 @@ export default function Menu() {
             >
               <Image src={image5} alt="Alcohol icon" />
             </button>
+            <p className={classes["menu-titles"]}>Alcohol</p>
           </div>
           <div className={classes["menu-section"]}>
             <button
@@ -134,6 +104,7 @@ export default function Menu() {
             >
               <Image src={image6} alt="Beer icon" />
             </button>
+            <p className={classes["menu-titles"]}>Beer</p>
           </div>
         </div>
         {renderCampaigns()}

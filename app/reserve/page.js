@@ -8,7 +8,7 @@ export default function ReservePage() {
         minHeight: "calc(100vh - 97px)",
       }}
     >
-      <Contact />;
+      <Contact />
       <GoogleMaps />
     </div>
   );

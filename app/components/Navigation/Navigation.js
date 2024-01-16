@@ -69,7 +69,7 @@ export default function Navigation() {
                   Menu
                 </Link>
               </li>
-              <li className={classes["navbar-item"]}>
+              {/* <li className={classes["navbar-item"]}>
                 <Link
                   href="/merch"
                   className={classes["navbar-link"]}
@@ -77,7 +77,7 @@ export default function Navigation() {
                 >
                   Merch
                 </Link>
-              </li>
+              </li> */}
               <li className={classes["navbar-item"]}>
                 <Link
                   href="/reserve"

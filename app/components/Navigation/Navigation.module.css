@@ -36,21 +36,17 @@
 
 .navbar-list {
   display: flex;
-  /* justify-content: space-evenly; */
+  justify-content: space-between;
   align-items: center;
   font-weight: bold;
+  margin: 0 1em;
   /* padding: 0.4em 2em; */
 }
 
-.first-list {
-  margin: 0 5em 0 1em;
-}
-
 .second-list {
-  width: 80vw;
+  width: 40vw;
   display: flex;
   justify-content: space-between;
-  justify-self: center;
 }
 
 .navbar-item:hover {
