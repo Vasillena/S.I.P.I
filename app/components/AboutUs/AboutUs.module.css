@@ -1,9 +1,7 @@
 .about-us {
-  width: 100%;
+  width: 100vw;
   text-align: center;
   padding: 14em 20em 0 20em;
-  /* margin-bottom: 20em; */
-  /* font-size: 1.2em; */
 }
 
 .about-us h1 {
