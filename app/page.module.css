@@ -7,6 +7,11 @@
   min-height: 100vh;
 }
 
+/* .fallback {
+  width: 100%;
+  margin: 14em auto 0 auto;
+} */
+
 .description {
   display: inherit;
   justify-content: inherit;
