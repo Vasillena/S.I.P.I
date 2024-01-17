@@ -30,3 +30,15 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media (max-width: 700px) {
+  .fixed-image {
+    height: 40vh;
+  }
+
+  .fixed-image-in {
+    flex-direction: column;
+    gap: 2em;
+    margin-top: -6em;
+  }
+}

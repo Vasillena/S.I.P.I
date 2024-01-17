@@ -7,7 +7,7 @@ export default function AboutUsPage() {
         minHeight: "calc(100vh - 69px)",
       }}
     >
-      <AboutUs />;
+      <AboutUs />
     </div>
   );
 }

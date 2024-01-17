@@ -26,3 +26,15 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 700px) {
+  .about-us {
+    font-size: 3vw;
+    padding: 10vh 12vw;
+    text-align: justify;
+  }
+
+  .about-us h1 {
+    text-align: center;
+  }
+}

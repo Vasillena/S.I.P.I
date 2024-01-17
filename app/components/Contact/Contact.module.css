@@ -5,12 +5,10 @@
   align-items: center;
   font-size: 1vw;
   text-align: center;
-  /* line-height: 2em; */
   padding-top: 20vh;
 }
 
 .contact-image {
-  /* width: 20em; */
   width: 20vw;
   height: auto;
   animation-duration: 5s;
@@ -54,5 +52,16 @@
 
   100% {
     transform: translateY(0);
+  }
+}
+
+@media (max-width: 700px) {
+  .contact {
+    font-size: 3vw;
+    padding: 10vh 12vw;
+  }
+
+  .contact-image {
+    width: 50vw;
   }
 }

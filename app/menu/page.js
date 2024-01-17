@@ -1,5 +1,4 @@
 import Menu from "../components/Menu/Menu";
-// import MenuItems from "../components/MenuItems/MenuItems";
 
 export default function MenuPage() {
   return (

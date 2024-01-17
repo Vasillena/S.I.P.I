@@ -5,7 +5,6 @@ import Navigation from "./components/Navigation/Navigation";
 import Footer from "./components/Footer/Footer";
 import Socials from "./components/Socials/Socials";
 
-// const inter = Inter({ subsets: ["latin"] });
 const gloriaHallelujah = Gloria_Hallelujah({
   subsets: ["latin"],
   weight: "400",
