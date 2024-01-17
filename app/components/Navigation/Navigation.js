@@ -3,10 +3,11 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logoImg from "@/public/logo.png";
-import logoImg2 from "@/public/logo2.png";
 
 import classes from "./Navigation.module.css";
+
+import logoImg from "@/public/logo.png";
+import logoImg2 from "@/public/logo2.png";
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

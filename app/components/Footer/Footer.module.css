@@ -1,4 +1,5 @@
 .footer {
+  height: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,19 +8,7 @@
   box-shadow: 1px 0 0.8rem gray;
   padding: 1em;
   margin-top: 2em;
-}
-
-.footer-list {
-  display: flex;
-  gap: 20em;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 0.8em;
-  font-weight: bold;
-}
-
-.footer-list li:hover {
-  transform: translateY(-0.2em);
+  font-size: 0.8vw;
 }
 
 .github-link {

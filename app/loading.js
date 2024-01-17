@@ -6,10 +6,13 @@ export default function LoadingPage() {
     <div
       style={{
         minHeight: "calc(100vh - 97px)",
-        margin: "14em auto 0 auto",
+        width: "100vw",
+        marginTop: "50vh",
+        display: "flex",
+        justifyContent: "center",
       }}
     >
-      <Image src={loading} alt="Loading" />;
+      <Image src={loading} alt="Loading" />
     </div>
   );
 }

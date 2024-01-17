@@ -4,7 +4,7 @@ export default function MakeAParty() {
   return (
     <div
       style={{
-        minHeight: "calc(100vh - 97px)",
+        minHeight: "calc(100vh - 69px)",
       }}
     >
       <Party />;

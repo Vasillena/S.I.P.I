@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Image from "next/image";
+
 import classes from "./Party.module.css";
 
 import image1 from "@/public/party-icon-1.png";

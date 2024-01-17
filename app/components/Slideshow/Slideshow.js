@@ -3,16 +3,16 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
+import classes from "./Slideshow.module.css";
+
 import image1 from "@/public/1.png";
 import image2 from "@/public/2.png";
 import image3 from "@/public/3.png";
 
-import classes from "./Slideshow.module.css";
-
 const images = [
-  { image: image1, alt: "image1" },
-  { image: image2, alt: "image2" },
-  { image: image3, alt: "image3" },
+  { image: image1, alt: "Bar image" },
+  { image: image2, alt: "Bar image" },
+  { image: image3, alt: "Bar image" },
 ];
 
 export default function ImageSlideshow() {

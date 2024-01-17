@@ -4,7 +4,7 @@ export default function AboutUsPage() {
   return (
     <div
       style={{
-        minHeight: "calc(100vh - 97px)",
+        minHeight: "calc(100vh - 69px)",
       }}
     >
       <AboutUs />;

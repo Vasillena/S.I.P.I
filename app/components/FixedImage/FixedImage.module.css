@@ -25,7 +25,7 @@
 }
 
 .fixed-image-in {
-  width: 70%;
+  width: 70vw;
   display: flex;
   justify-content: space-between;
   align-items: center;

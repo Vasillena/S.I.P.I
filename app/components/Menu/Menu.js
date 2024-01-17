@@ -16,14 +16,13 @@ import menuList from "../../menuList/menuList.json";
 export default function Menu() {
   const [selectedTab, setSelectedTab] = useState("");
 
-  const renderCampaigns = () => {
+  const renderMenu = () => {
     const selectedCategory = menuList.menu.filter(
       (item) => item.category === selectedTab
     );
     const categoryName = menuList.menu.find(
       (item) => item.category === selectedTab
     );
-    console.log(categoryName);
 
     if (selectedCategory && categoryName) {
       return (
@@ -107,7 +106,7 @@ export default function Menu() {
             <p className={classes["menu-titles"]}>Beer</p>
           </div>
         </div>
-        {renderCampaigns()}
+        {renderMenu()}
       </div>
     </>
   );

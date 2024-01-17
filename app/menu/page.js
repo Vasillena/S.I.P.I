@@ -5,7 +5,7 @@ export default function MenuPage() {
   return (
     <div
       style={{
-        minHeight: "calc(100vh - 97px)",
+        minHeight: "calc(100vh - 69px)",
       }}
     >
       <Menu />

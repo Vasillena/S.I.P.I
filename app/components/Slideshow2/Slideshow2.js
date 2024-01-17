@@ -3,34 +3,34 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
-import image5 from "@/public/5.png";
-import image6 from "@/public/6.png";
-import image7 from "@/public/7.png";
-import image8 from "@/public/8.png";
-import image9 from "@/public/9.png";
-import image10 from "@/public/10.png";
-import image11 from "@/public/11.png";
-import image12 from "@/public/12.png";
-import image13 from "@/public/13.png";
-import image14 from "@/public/14.png";
-import image15 from "@/public/15.png";
-import image16 from "@/public/16.png";
-
 import classes from "./Slideshow2.module.css";
 
+import image1 from "@/public/5.png";
+import image2 from "@/public/6.png";
+import image3 from "@/public/7.png";
+import image4 from "@/public/8.png";
+import image5 from "@/public/9.png";
+import image6 from "@/public/10.png";
+import image7 from "@/public/11.png";
+import image8 from "@/public/12.png";
+import image9 from "@/public/13.png";
+import image10 from "@/public/14.png";
+import image11 from "@/public/15.png";
+import image12 from "@/public/16.png";
+
 const images = [
-  { image: image5, alt: "image1" },
-  { image: image6, alt: "image2" },
-  { image: image7, alt: "image3" },
-  { image: image8, alt: "image1" },
-  { image: image9, alt: "image2" },
-  { image: image10, alt: "image3" },
-  { image: image11, alt: "image1" },
-  { image: image12, alt: "image2" },
-  { image: image13, alt: "image3" },
-  { image: image14, alt: "image1" },
-  { image: image15, alt: "image2" },
-  { image: image16, alt: "image3" },
+  { image: image1, alt: "Party1" },
+  { image: image2, alt: "Party2" },
+  { image: image3, alt: "Party3" },
+  { image: image4, alt: "Party4" },
+  { image: image5, alt: "Party5" },
+  { image: image6, alt: "Party6" },
+  { image: image7, alt: "Party7" },
+  { image: image8, alt: "Party8" },
+  { image: image9, alt: "Party9" },
+  { image: image10, alt: "Party10" },
+  { image: image11, alt: "Party11" },
+  { image: image12, alt: "Party12" },
 ];
 
 export default function ImageSlideshow2() {
