@@ -39,6 +39,6 @@
   .fixed-image-in {
     flex-direction: column;
     gap: 2em;
-    margin-top: -6em;
+    margin-top: -10em;
   }
 }

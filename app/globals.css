@@ -100,18 +100,6 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-/* header {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-  background-color: transparent;
-  transition: background-color 0.3s ease;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 0.8em;
-} */
-
 li {
   list-style: none;
 }

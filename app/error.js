@@ -1,7 +1,6 @@
-import Image from "next/image";
-import loading from "@/public/loading.gif";
+"use client";
 
-export default function LoadingPage() {
+export default function Error() {
   return (
     <div
       style={{
@@ -12,7 +11,7 @@ export default function LoadingPage() {
         justifyContent: "center",
       }}
     >
-      <Image src={loading} alt="Loading" />
+      <h1>Something went wrong! Please try again later!</h1>
     </div>
   );
 }

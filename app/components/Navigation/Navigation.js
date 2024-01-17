@@ -8,12 +8,14 @@ import classes from "./Navigation.module.css";
 
 import logoImg from "@/public/logo.png";
 import logoImg2 from "@/public/logo2.png";
+import menuBars from "@/public/menu-bars.svg";
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
+    console.log(isMenuOpen);
   };
 
   const closeMenu = () => {
@@ -23,12 +25,18 @@ export default function Navigation() {
   return (
     <header className={classes.header}>
       <div>
-        {/* <div>
-          <button className="menu-button" onClick={toggleMenu}>
-            <img src="../../../public/images/bars-solid.svg" alt="bars" />
+        <div>
+          <button className={classes["menu-button"]} onClick={toggleMenu}>
+            <Image
+              className={classes["menu-bars"]}
+              src={menuBars}
+              alt="Menu bars"
+            />
           </button>
-        </div> */}
-        <nav className={isMenuOpen ? classes["menu-open"] : ""}>
+        </div>
+        <nav
+          className={`${classes.nav} ${isMenuOpen ? classes["menu-open"] : ""}`}
+        >
           <ul className={classes["navbar-list"]}>
             <div className={classes["first-list"]}>
               <li className={classes["navbar-item"]}>

@@ -1,6 +1,5 @@
 .menu-container {
   width: 100%;
-  /* min-height: 60em; */
   padding-top: 20vh;
   font-size: 1vw;
   text-align: center;
@@ -77,4 +76,23 @@
 
 .description {
   align-self: flex-start;
+}
+
+@media (max-width: 700px) {
+  .menu-container {
+    padding-top: 10vh;
+    font-size: 2vw;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+  }
+
+  .menu-section img {
+    width: 26vw;
+  }
+
+  .menu-card {
+    width: 70%;
+  }
 }

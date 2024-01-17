@@ -7,7 +7,7 @@ export default function MakeAPartyPage() {
         minHeight: "calc(100vh - 69px)",
       }}
     >
-      <Party />;
+      <Party />
     </div>
   );
 }
