@@ -4,6 +4,7 @@ import { Gloria_Hallelujah } from "next/font/google";
 import Navigation from "./components/Navigation/Navigation";
 import Footer from "./components/Footer/Footer";
 import Socials from "./components/Socials/Socials";
+import BackToTop from "./components/BackToTop/BackToTop";
 
 const gloriaHallelujah = Gloria_Hallelujah({
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
           <Navigation />
           {children}
           <Socials />
+          <BackToTop />
           <Footer />
         </body>
       </html>
