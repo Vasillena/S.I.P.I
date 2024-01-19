@@ -10,15 +10,21 @@ import image1 from "@/public/party-icon-1.png";
 import image2 from "@/public/party-icon-2.png";
 import image3 from "@/public/party-icon-3.png";
 
-import image4 from "@/public/party-4.png";
-import image5 from "@/public/party-5.png";
-import image6 from "@/public/party-6.png";
+import image4 from "@/public/party-1.png";
+import image5 from "@/public/party-2.png";
+import image6 from "@/public/party-3.png";
+
+import image7 from "@/public/party-4.png";
+import image8 from "@/public/party-5.png";
+import image9 from "@/public/party-6.png";
 
 import arrow from "@/public/arrow.gif";
 
 export default function Party() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
+
+  const isMobile = window.innerWidth <= 700;
 
   const showModal = (index) => {
     setSelectedImageIndex(index);
@@ -112,7 +118,11 @@ export default function Party() {
         {selectedImageIndex !== null && (
           <Image
             className={classes["modal-image"]}
-            src={[image4, image5, image6][selectedImageIndex]}
+            src={
+              isMobile
+                ? [image4, image5, image6][selectedImageIndex]
+                : [image7, image8, image9][selectedImageIndex]
+            }
             alt="Party-image"
           />
         )}
