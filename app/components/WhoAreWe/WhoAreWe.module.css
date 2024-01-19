@@ -5,6 +5,14 @@
   font-size: 1.5vw;
 }
 
+@media (min-width: 701px) and (max-width: 1120px) {
+  .who-are-we {
+    padding: 0 12vw;
+    font-size: 2vw;
+    margin-bottom: 20vh;
+  }
+}
+
 @media (max-width: 700px) {
   .who-are-we {
     padding: 0 12vw;

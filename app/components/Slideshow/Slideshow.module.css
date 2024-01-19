@@ -24,6 +24,12 @@
   transform: scale(1) translateX(0) rotate(0);
 }
 
+@media (min-width: 701px) and (max-width: 1120px) {
+  .slideshow {
+    margin-bottom: 20vh;
+  }
+}
+
 @media (max-width: 700px) {
   .slideshow {
     margin-bottom: 15vh;

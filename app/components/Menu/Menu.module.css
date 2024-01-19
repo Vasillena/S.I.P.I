@@ -78,6 +78,20 @@
   align-self: flex-start;
 }
 
+@media (min-width: 701px) and (max-width: 1120px) {
+  .menu-container {
+    font-size: 2vw;
+  }
+
+  .menu-section img {
+    width: 10vw;
+  }
+
+  .menu-card {
+    width: 70%;
+  }
+}
+
 @media (max-width: 700px) {
   .menu-container {
     padding-top: 10vh;

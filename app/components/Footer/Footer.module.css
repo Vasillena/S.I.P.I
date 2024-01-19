@@ -16,6 +16,12 @@
   font-weight: bold;
 }
 
+@media (min-width: 701px) and (max-width: 1120px) {
+  .footer {
+    font-size: 2vw;
+  }
+}
+
 @media (max-width: 700px) {
   .footer {
     font-size: 2vw;

@@ -71,6 +71,12 @@
   display: none;
 }
 
+@media (min-width: 701px) and (max-width: 1120px) {
+  .header {
+    font-size: 1.5vw;
+  }
+}
+
 @media (max-width: 700px) {
   .header {
     height: 12em;

@@ -28,6 +28,12 @@
   transition: all 0.2s ease-in-out;
 }
 
+@media (min-width: 701px) and (max-width: 1120px) {
+  .socials {
+    scale: 0.8;
+  }
+}
+
 @media (max-width: 700px) {
   .socials {
     position: static;

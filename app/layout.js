@@ -12,7 +12,8 @@ const gloriaHallelujah = Gloria_Hallelujah({
 
 export const metadata = {
   title: "S.I.P.I.",
-  description: "Bar Website",
+  description:
+    "Welcome to S.I.P.I. Enjoy the greatest parties, cocktails and vibe.",
 };
 
 export default function RootLayout({ children }) {
