@@ -160,6 +160,7 @@
     {
       "id": 21,
       "category": "Alcohol",
+      "semi-category": "Scotish Whiskey",
       "name": "Naked Grouse",
       "price": "10.30 BGN",
       "quantity": "50 ml"
@@ -193,15 +194,9 @@
       "quantity": "50 ml"
     },
     {
-      "id": 26,
-      "category": "Alcohol",
-      "name": "Naked Grouse",
-      "price": "10.30 BGN",
-      "quantity": "50 ml"
-    },
-    {
       "id": 27,
       "category": "Alcohol",
+         "semi-category": "Irish Whiskey",
       "name": "Glendalough",
       "price": "10.50 BGN",
       "quantity": "50 ml"
@@ -230,6 +225,7 @@
     {
       "id": 31,
       "category": "Alcohol",
+         "semi-category": "Bourbon and Tennessee",
       "name": "Woodford Reserve",
       "price": "11.30 BGN",
       "quantity": "50 ml"
@@ -272,6 +268,7 @@
     {
       "id": 37,
       "category": "Alcohol",
+         "semi-category": "Single Malt Whisky",
       "name": "Macallan 12y.o.",
       "price": "20.00 BGN",
       "quantity": "50 ml"
@@ -321,6 +318,7 @@
     {
       "id": 44,
       "category": "Alcohol",
+         "semi-category": "Vodka",
       "name": "Finlandia",
       "price": "6.80 BGN",
       "quantity": "50 ml"
@@ -356,6 +354,7 @@
     {
       "id": 49,
       "category": "Alcohol",
+          "semi-category": "Gin",
       "name": "Hendrick's",
       "price": "10.50 BGN",
       "quantity": "50 ml"
@@ -398,6 +397,7 @@
     {
       "id": 55,
       "category": "Alcohol",
+          "semi-category": "Rum",
       "name": "Angostura reserva",
       "price": "7.50 BGN",
       "quantity": "50 ml"
@@ -405,6 +405,7 @@
     {
       "id": 56,
       "category": "Alcohol",
+
       "name": "Angostura 5y.o.",
       "price": "8.30 BGN",
       "quantity": "50 ml"
@@ -433,6 +434,7 @@
     {
       "id": 60,
       "category": "Alcohol",
+           "semi-category": "Tequila",
       "name": "Sierra Antiguo",
       "price": "4.50 BGN",
       "quantity": "50 ml",
@@ -455,6 +457,7 @@
     {
       "id": 63,
       "category": "Alcohol",
+        "semi-category": "Cognac and Brandy",
       "name": "Hennesy",
       "price": "10.90 BGN",
       "quantity": "50 ml"
@@ -483,6 +486,7 @@
     {
       "id": 67,
       "category": "Alcohol",
+  "semi-category": "Liqueurs",
       "name": "Skinos",
       "price": "4.20 BGN",
       "quantity": "25 ml"

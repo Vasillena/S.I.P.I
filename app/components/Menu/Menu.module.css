@@ -69,6 +69,10 @@
   flex-direction: column;
 }
 
+.semi-category {
+  font-weight: bold;
+}
+
 .name-price {
   display: flex;
   justify-content: space-between;

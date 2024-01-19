@@ -30,6 +30,11 @@ export default function Menu() {
           <h2>{categoryName.category}</h2>
           {selectedCategory.map((item) => (
             <div key={item.id} className={classes["menu-card"]}>
+              {item["semi-category"] && (
+                <p className={classes["semi-category"]}>
+                  {item["semi-category"]}
+                </p>
+              )}
               <div className={classes["name-price"]}>
                 <p>{item.name}</p>
                 <p>{`${item.price} / ${item.quantity}`}</p>
