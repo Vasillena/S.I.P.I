@@ -26,6 +26,7 @@
   height: 8em;
   padding: 1em;
   border-radius: 1em;
+  box-shadow: 1px 0 0.8rem gray;
 }
 
 .spots img {
