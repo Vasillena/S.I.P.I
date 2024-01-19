@@ -1,5 +1,10 @@
 import Menu from "../components/Menu/Menu";
 
+export const metadata = {
+  title: "Menu",
+  description: "Browse our menu.",
+};
+
 export default function MenuPage() {
   return (
     <div
