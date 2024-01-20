@@ -24,7 +24,11 @@ export default function Party() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
 
-  const isMobile = window.innerWidth <= 700;
+  const isMobile = () => {
+    if (typeof window !== "undefined") {
+      window.innerWidth <= 700;
+    }
+  };
 
   const showModal = (index) => {
     setSelectedImageIndex(index);

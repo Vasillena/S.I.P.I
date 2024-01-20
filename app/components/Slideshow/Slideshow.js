@@ -5,9 +5,9 @@ import Image from "next/image";
 
 import classes from "./Slideshow.module.css";
 
-import image1 from "@/public/1.png";
-import image2 from "@/public/2.png";
-import image3 from "@/public/3.png";
+import image1 from "@/public/1.jpg";
+import image2 from "@/public/2.jpg";
+import image3 from "@/public/3.jpg";
 
 const images = [
   { image: image1, alt: "Bar image" },

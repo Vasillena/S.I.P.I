@@ -83,7 +83,7 @@
   width: 100%;
   height: auto;
   position: fixed;
-  top: 10vh;
+  top: 12vh;
   text-align: center;
 }
 
@@ -94,8 +94,10 @@
 }
 
 .modal-image {
-  width: auto;
+  width: 80vw;
   height: 80vh;
+  /* width: auto;
+  height: 80vh; */
   border-radius: 0.5em;
 }
 
