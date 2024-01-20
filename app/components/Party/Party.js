@@ -24,10 +24,11 @@ export default function Party() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
 
-  const isMobile = () => {
+  const isLandscape = () => {
     if (typeof window !== "undefined") {
-      window.innerWidth <= 700;
+      return window.innerWidth > window.innerHeight;
     }
+    return false;
   };
 
   const showModal = (index) => {
@@ -123,9 +124,9 @@ export default function Party() {
           <Image
             className={classes["modal-image"]}
             src={
-              isMobile
-                ? [image4, image5, image6][selectedImageIndex]
-                : [image7, image8, image9][selectedImageIndex]
+              isLandscape()
+                ? [image7, image8, image9][selectedImageIndex]
+                : [image4, image5, image6][selectedImageIndex]
             }
             alt="Party-image"
           />
