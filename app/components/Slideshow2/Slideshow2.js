@@ -33,13 +33,23 @@ const images = [
   { image: image12, alt: "Party12" },
 ];
 
+const shuffleArray = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+};
+
+const shuffledImages = shuffleArray(images);
+
 export default function ImageSlideshow2() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) =>
-        prevIndex < images.length - 1 ? prevIndex + 1 : 0
+        prevIndex < shuffledImages.length - 1 ? prevIndex + 1 : 0
       );
     }, 5000);
 
@@ -48,7 +58,7 @@ export default function ImageSlideshow2() {
 
   return (
     <div className={classes.slideshow}>
-      {images.map((image, index) => (
+      {shuffledImages.map((image, index) => (
         <Image
           key={index}
           src={image.image}

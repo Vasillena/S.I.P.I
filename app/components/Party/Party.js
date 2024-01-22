@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { useState } from "react";
+import Link from "next/link";
 import Image from "next/image";
 
 import classes from "./Party.module.css";
@@ -99,24 +100,9 @@ export default function Party() {
             unforgettable!
           </p>
           <br />
-          <h1>Contact us</h1>
-          <div className={classes.contact}>
-            <div>
-              <p>Manager</p>
-              <h2>
-                Nikolay Glavchev <br />
-                0878 10 49 19
-              </h2>
-            </div>
-            <div>
-              <p>Event Manager</p>
-              <h2>
-                Dimitar Petrov
-                <br />
-                0889 72 40 90
-              </h2>
-            </div>
-          </div>
+          <Link href="/reserve">
+            <h1>Contact us</h1>
+          </Link>
         </div>
       </div>
       <div className={`${classes.modal} ${isModalOpen ? classes.show : ""}`}>
