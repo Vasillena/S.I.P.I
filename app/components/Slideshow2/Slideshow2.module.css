@@ -25,12 +25,14 @@
 
 @media (min-width: 701px) and (max-width: 1120px) {
   .slideshow {
-    width: 40vw;
+    width: 45vw;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
   }
 }
 
 @media (max-width: 700px) {
   .slideshow {
-    width: 40vw;
+    width: 45vw;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
   }
 }
