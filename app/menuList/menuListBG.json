@@ -1,0 +1,741 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "category": "Коктейли",
+      "name": "Negroni",
+      "price": "12.00 BGN",
+      "quantity": "120 мл",
+      "description": "Джин JJ Whitley, Campari овкусено с какао, червен вермут Dolin"
+    },
+    {
+      "id": 2,
+      "category": "Коктейли",
+      "name": "Aperol Spritz",
+      "price": "12.00 BGN",
+      "quantity": "200 мл",
+      "description": "Aperol, просеко, сода, портокал"
+    },
+    {
+      "id": 3,
+      "category": "Коктейли",
+      "name": "Apple Sour",
+      "price": "12.00 BGN",
+      "quantity": "180 мл",
+      "description": "Водка Finlandia, ликьор зелена ябълка, сироп ванилия и канела, лимон, веган белтък"
+    },
+    {
+      "id": 4,
+      "category": "Коктейли",
+      "name": "Godfather",
+      "price": "12.00 BGN",
+      "quantity": "100 мл",
+      "description": "Уиски Naked Malt , Disaronno, солен разтвор, ароматни битери"
+    },
+    {
+      "id": 5,
+      "category": "Коктейли",
+      "name": "Paloma",
+      "price": "12.90 BGN",
+      "quantity": "200 мл",
+      "description": "Текила Sierra, Мезкал, агаве нектар, лайм, грейпфруп сода, сол"
+    },
+    {
+      "id": 6,
+      "category": "Коктейли",
+      "name": "Brendy Sashe",
+      "price": "12.90 BGN",
+      "quantity": "150 мл",
+      "description": "Бренди Ararat 3* инфузирано с ванилия, ликьор кафе, Ferrand Dry Curacao, колд брю кафе, сметана, бисквити Орео"
+    },
+    {
+      "id": 7,
+      "category": "Коктейли",
+      "name": "Jungle Bird",
+      "price": "12.00 BGN",
+      "quantity": "180 мл",
+      "description": "Ром Sailor Jerry, Campari, сок ананас, захарен сироп, лайм"
+    },
+    {
+      "id": 8,
+      "category": "Коктейли",
+      "name": "Sipi Club",
+      "price": "12.90 BGN",
+      "quantity": "180 мл",
+      "description": "Джин JJ Whitley, сироп нар, лимон, веган белтък, просеко, мента"
+    },
+    {
+      "id": 9,
+      "category": "Коктейли",
+      "name": "Tangerine Margarita",
+      "price": "12.90 BGN",
+      "quantity": "150 мл",
+      "description": "Текила Sierra, сладко от мандарини, Ferrand Dry Curacao, лайм, мащерка"
+    },
+    {
+      "id": 10,
+      "category": "Коктейли",
+      "name": "Gravel Pit",
+      "price": "12.90 BGN",
+      "quantity": "200 мл",
+      "description": "Tatratea 52%, кордеал от плодов чай, тоник, лимон, ароматни битери"
+    },
+    {
+      "id": 11,
+      "category": "Коктейли",
+      "name": "Perfect Storm",
+      "price": "12.90 BGN",
+      "quantity": "200 мл",
+      "description": "Ром Sailor Jerry, мед с джинджифил и боб тонка, джинджифилова бира, лайм"
+    },
+    {
+      "id": 12,
+      "category": "Коктейли",
+      "name": "Fun Loving Criminal",
+      "price": "12.90 BGN",
+      "quantity": "180 мл",
+      "description": "Уиски Proper Twelve, червен вермут Dolin, Ferrand Dry Curacao, ликьор Giffard banana de brasil, ароматни битери"
+    },
+    {
+      "id": 13,
+      "category": "Коктейли",
+      "name": "Funky Pie",
+      "price": "12.90 BGN",
+      "quantity": "150 мл",
+      "description": "Уиски Jim Beam rye , бренди Ararat 3*, амаро Montenegro, сироп от канела, ликьор Pimento Dram, ангостура, Абсент"
+    },
+    {
+      "id": 14,
+      "category": "Безалкохолни напитки",
+      "name": "Минерална вода",
+      "price": "2.50 BGN",
+      "quantity": "330 мл"
+    },
+    {
+      "id": 15,
+      "category": "Безалкохолни напитки",
+      "name": "Газирана вода",
+      "price": "2.80 BGN",
+      "quantity": "250 мл"
+    },
+    {
+      "id": 16,
+      "category": "Безалкохолни напитки",
+      "name": "Schweppes Тоник",
+      "price": "2.80 BGN",
+      "quantity": "250 мл"
+    },
+    {
+      "id": 17,
+      "category": "Безалкохолни напитки",
+      "name": "Coca-Cola",
+      "price": "2.80 BGN",
+      "quantity": "250 мл"
+    },
+    {
+      "id": 18,
+      "category": "Безалкохолни напитки",
+      "name": "Студен чай FuzeTea",
+      "price": "3.50 BGN",
+      "quantity": "250 мл"
+    },
+    {
+      "id": 19,
+      "category": "Безалкохолни напитки",
+      "name": "Натурален сок Grenno",
+      "price": "4.10 BGN",
+      "quantity": "250 мл"
+    },
+    {
+      "id": 20,
+      "category": "Безалкохолни напитки",
+      "name": "Red Bull",
+      "price": "6.00 BGN",
+      "quantity": "250 мл"
+    },
+    {
+      "id": 21,
+      "category": "Безалкохолни напитки",
+      "name": "Джинджифилова бира",
+      "price": "6.00 BGN",
+      "quantity": "200 мл"
+    },
+    {
+      "id": 22,
+      "category": "Безалкохолни напитки",
+      "name": "Premium Tonic Water",
+      "price": "5.10 BGN",
+      "quantity": "200 мл"
+    },
+    {
+      "id": 23,
+      "category": "Безалкохолни напитки",
+      "name": "Perrier",
+      "price": "5.10 BGN",
+      "quantity": "330 мл"
+    },
+    {
+      "id": 24,
+      "category": "Безалкохолни напитки",
+      "name": "Лимонада",
+      "price": "5.70 BGN",
+      "quantity": "300 мл",
+      "description": "нар / манго / малина"
+    },
+    {
+      "id": 25,
+      "category": "Топли напитки",
+      "name": "Кафе Costa",
+      "price": "3.00 BGN",
+      "quantity": "60 мл"
+    },
+    {
+      "id": 26,
+      "category": "Топли напитки",
+      "name": "Чай",
+      "price": "4.20 BGN",
+      "quantity": "300 мл"
+    },
+    {
+      "id": 27,
+      "category": "Алкохол",
+      "semi-category": "Scotish Whiskey",
+      "name": "Naked Grouse",
+      "price": "10.30 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 28,
+      "category": "Алкохол",
+      "name": "Monkey Shoulder",
+      "price": "10.30 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 29,
+      "category": "Алкохол",
+      "name": "Grant's",
+      "price": "7.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 30,
+      "category": "Алкохол",
+      "name": "Famous Grouse",
+      "price": "7.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 31,
+      "category": "Алкохол",
+      "name": "Johnnie Walker Black Label",
+      "price": "10.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 32,
+      "category": "Алкохол",
+      "semi-category": "Irish Whiskey",
+      "name": "Glendalough",
+      "price": "10.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 33,
+      "category": "Алкохол",
+      "name": "Tullamore D.E.W.",
+      "price": "7.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 34,
+      "category": "Алкохол",
+      "name": "Jameson",
+      "price": "7.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 35,
+      "category": "Алкохол",
+      "name": "Proper Twelve",
+      "price": "7.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 36,
+      "category": "Алкохол",
+      "semi-category": "Bourbon and Tennessee",
+      "name": "Woodford Reserve",
+      "price": "11.30 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 37,
+      "category": "Алкохол",
+      "name": "Gentleman Jack",
+      "price": "11.30 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 38,
+      "category": "Алкохол",
+      "name": "Jack Daniel's",
+      "price": "9.30 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 39,
+      "category": "Алкохол",
+      "name": "Wild Turkey",
+      "price": "8.30 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 40,
+      "category": "Алкохол",
+      "name": "Maker's Mark",
+      "price": "11.30 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 41,
+      "category": "Алкохол",
+      "name": "Jim Beam Rye",
+      "price": "8.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 42,
+      "category": "Алкохол",
+      "semi-category": "Single Malt Whisky",
+      "name": "Macallan 12y.o.",
+      "price": "20.00 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 43,
+      "category": "Алкохол",
+      "name": "Glenfiddich 12y.o.",
+      "price": "11.30 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 44,
+      "category": "Алкохол",
+      "name": "Glenfiddich 15y.o.",
+      "price": "15.30 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 45,
+      "category": "Алкохол",
+      "name": "Glenfiddich 18y.o.",
+      "price": "20.30 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 46,
+      "category": "Алкохол",
+      "name": "Highland Park 12y.o.",
+      "price": "15.30 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 47,
+      "category": "Алкохол",
+      "name": "Arran 10y.o.",
+      "price": "13.30 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 48,
+      "category": "Алкохол",
+      "name": "Glen Grant 10y.o.",
+      "price": "10.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 49,
+      "category": "Алкохол",
+      "semi-category": "Vodka",
+      "name": "Finlandia",
+      "price": "6.80 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 50,
+      "category": "Алкохол",
+      "name": "Finlandia Botanical",
+      "price": "7.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 51,
+      "category": "Алкохол",
+      "name": "Reyka",
+      "price": "8.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 52,
+      "category": "Алкохол",
+      "name": "Beluga Noble",
+      "price": "14.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 53,
+      "category": "Алкохол",
+      "name": "Grey Goose",
+      "price": "15.00 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 54,
+      "category": "Алкохол",
+      "semi-category": "Gin",
+      "name": "Hendrick's",
+      "price": "10.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 55,
+      "category": "Алкохол",
+      "name": "Bulldog",
+      "price": "8.30 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 56,
+      "category": "Алкохол",
+      "name": "Glendalough",
+      "price": "10.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 57,
+      "category": "Алкохол",
+      "name": "Bicken's",
+      "price": "7.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 58,
+      "category": "Алкохол",
+      "name": "Votanikon",
+      "price": "8.30 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 59,
+      "category": "Алкохол",
+      "name": "JJ Whitley",
+      "price": "7.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 60,
+      "category": "Алкохол",
+      "semi-category": "Rum",
+      "name": "Angostura reserva",
+      "price": "7.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 61,
+      "category": "Алкохол",
+
+      "name": "Angostura 5y.o.",
+      "price": "8.30 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 62,
+      "category": "Алкохол",
+      "name": "Angostura 7y.o.",
+      "price": "10.30 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 63,
+      "category": "Алкохол",
+      "name": "Sailor Jerry",
+      "price": "8.30 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 64,
+      "category": "Алкохол",
+      "name": "Brugal 1888",
+      "price": "20.00 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 65,
+      "category": "Алкохол",
+      "semi-category": "Tequila",
+      "name": "Sierra Antiguo",
+      "price": "4.50 BGN",
+      "quantity": "50 мл",
+      "description": "Plata / Anejo"
+    },
+    {
+      "id": 66,
+      "category": "Алкохол",
+      "name": "Herradura Reposado",
+      "price": "6.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 67,
+      "category": "Алкохол",
+      "name": "Topanito",
+      "price": "5.00 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 68,
+      "category": "Алкохол",
+      "semi-category": "Cognac and Brandy",
+      "name": "Hennesy",
+      "price": "10.90 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 69,
+      "category": "Алкохол",
+      "name": "Metaxa",
+      "price": "7.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 70,
+      "category": "Алкохол",
+      "name": "Ракия Tikves",
+      "price": "6.80 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 71,
+      "category": "Алкохол",
+      "name": "Ракия Zlatna Dunja",
+      "price": "7.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 72,
+      "category": "Алкохол",
+      "semi-category": "Liqueurs",
+      "name": "Skinos",
+      "price": "4.20 BGN",
+      "quantity": "25 мл"
+    },
+    {
+      "id": 73,
+      "category": "Алкохол",
+      "name": "Jagermeister",
+      "price": "4.20 BGN",
+      "quantity": "25 мл"
+    },
+    {
+      "id": 74,
+      "category": "Алкохол",
+      "name": "Aftershock",
+      "price": "4.20 BGN",
+      "quantity": "25 мл"
+    },
+    {
+      "id": 75,
+      "category": "Алкохол",
+      "name": "Cazcabel Coffee",
+      "price": "4.20 BGN",
+      "quantity": "25 мл"
+    },
+    {
+      "id": 76,
+      "category": "Алкохол",
+      "name": "Tatratea",
+      "price": "4.20 BGN",
+      "quantity": "25 мл"
+    },
+    {
+      "id": 77,
+      "category": "Алкохол",
+      "name": "Campari",
+      "price": "3.60 BGN",
+      "quantity": "25 мл"
+    },
+    {
+      "id": 78,
+      "category": "Алкохол",
+      "name": "Disaronno",
+      "price": "3.60 BGN",
+      "quantity": "25 мл"
+    },
+    {
+      "id": 79,
+      "category": "Алкохол",
+      "name": "Baileys",
+      "price": "3.60 BGN",
+      "quantity": "25 мл"
+    },
+    {
+      "id": 80,
+      "category": "Алкохол",
+      "name": "Branca Menta",
+      "price": "3.60 BGN",
+      "quantity": "25 мл"
+    },
+    {
+      "id": 81,
+      "category": "Алкохол",
+      "name": "Aperol",
+      "price": "7.50 BGN",
+      "quantity": "50 мл"
+    },
+    {
+      "id": 82,
+      "category": "Алкохол",
+      "name": "Liquor 43",
+      "price": "3.60 BGN",
+      "quantity": "25 мл"
+    },
+    {
+      "id": 83,
+      "category": "Бира",
+      "name": "Stella Artois",
+      "price": "6.00 BGN",
+      "quantity": "330 мл"
+    },
+    {
+      "id": 84,
+      "category": "Бира",
+      "name": "Corona",
+      "price": "7.00 BGN",
+      "quantity": "330 мл"
+    },
+    {
+      "id": 85,
+      "category": "Бира",
+      "name": "Beck's",
+      "price": "5.00 BGN",
+      "quantity": "330 мл"
+    },
+    {
+      "id": 86,
+      "category": "Бира",
+      "name": "Hoegaarden",
+      "price": "7.00 BGN",
+      "quantity": "330 мл"
+    },
+    {
+      "id": 87,
+      "category": "Бира",
+      "name": "Leffe",
+      "price": "7.00 BGN",
+      "quantity": "330 мл"
+    },
+    {
+      "id": 88,
+      "category": "Бира",
+      "name": "Каменица",
+      "price": "4.50 BGN",
+      "quantity": "330 мл"
+    },
+    {
+      "id": 89,
+      "category": "Бира",
+      "name": "Staropramen 0.0",
+      "price": "5.00 BGN",
+      "quantity": "330 мл"
+    },
+    {
+      "id": 90,
+      "category": "Вино",
+      "name": "Златен Рожен",
+      "price": "7.50 BGN",
+      "quantity": "150 мл",
+      "description": "Совиньон блан & Мискет"
+    },
+    {
+      "id": 91,
+      "category": "Вино",
+      "name": "Кормонс",
+      "price": "50.00 BGN",
+      "quantity": "750 мл",
+      "description": "Совиньон / Пино Гриджо"
+    },
+    {
+      "id": 92,
+      "category": "Вино",
+      "name": "Ливио Фелуга",
+      "price": "100.00 BGN",
+      "quantity": "750 мл",
+      "description": ""
+    },
+    {
+      "id": 93,
+      "category": "Вино",
+      "name": "Златен Рожен",
+      "price": "7.50 BGN",
+      "quantity": "150 мл",
+      "description": "Санджовезе & Широка Мелнишка"
+    },
+    {
+      "id": 94,
+      "category": "Вино",
+      "name": "Шато Монто",
+      "price": "50.00 BGN",
+      "quantity": "750 мл",
+      "description": "Сензо & Гренаш & Сира"
+    },
+    {
+      "id": 95,
+      "category": "Вино",
+      "name": "Шато Миравал",
+      "price": "90.00 BGN",
+      "quantity": "750 мл",
+      "description": "Кот дьо Прованс"
+    },
+    {
+      "id": 96,
+      "category": "Вино",
+      "name": "Златен Рожен",
+      "price": "7.50 BGN",
+      "quantity": "150 мл",
+      "description": "Сира"
+    },
+    {
+      "id": 97,
+      "category": "Вино",
+      "name": "Фамилия Перин",
+      "price": "50.00 BGN",
+      "quantity": "750 мл",
+      "description": "Мурведър & Гренаш & Сира"
+    },
+    {
+      "id": 98,
+      "category": "Вино",
+      "name": "Bottega",
+      "price": "47.00 BGN",
+      "quantity": "750 мл",
+      "description": ""
+    },
+    {
+      "id": 99,
+      "category": "Вино",
+      "name": "Bottega",
+      "price": "17.00 BGN",
+      "quantity": "200 мл",
+      "description": ""
+    },
+    {
+      "id": 100,
+      "category": "Вино",
+      "name": "1818",
+      "price": "130.00 BGN",
+      "quantity": "750 мл",
+      "description": ""
+    }
+  ]
+}
