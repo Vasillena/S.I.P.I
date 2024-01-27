@@ -79,7 +79,7 @@
 
 @media (max-width: 700px) {
   .header {
-    height: 12em;
+    height: 14em;
     display: flex;
     align-items: center;
   }
@@ -123,5 +123,6 @@
     align-items: center;
     font-size: 4vw;
     gap: 3vh;
+    text-align: center;
   }
 }

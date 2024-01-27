@@ -19,6 +19,14 @@ import image7 from "@/public/party-4.png";
 import image8 from "@/public/party-5.png";
 import image9 from "@/public/party-6.png";
 
+import image10 from "@/public/party-7.png";
+import image11 from "@/public/party-8.png";
+import image12 from "@/public/party-9.png";
+
+import image13 from "@/public/party-10.png";
+import image14 from "@/public/party-11.png";
+import image15 from "@/public/party-12.png";
+
 import arrow from "@/public/arrow.gif";
 
 import { useTranslation } from "react-i18next";
@@ -26,7 +34,7 @@ import { useTranslation } from "react-i18next";
 export default function Party() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const isLandscape = () => {
     if (typeof window !== "undefined") {
@@ -54,6 +62,18 @@ export default function Party() {
       };
     }
   }, [isModalOpen]);
+
+  const renderImages = () => {
+    if (i18n.language === "bg") {
+      return isLandscape()
+        ? [image13, image14, image15]
+        : [image10, image11, image12];
+    } else {
+      return isLandscape()
+        ? [image7, image8, image9]
+        : [image4, image5, image6];
+    }
+  };
 
   return (
     <>
@@ -108,11 +128,7 @@ export default function Party() {
         {selectedImageIndex !== null && (
           <Image
             className={classes["modal-image"]}
-            src={
-              isLandscape()
-                ? [image7, image8, image9][selectedImageIndex]
-                : [image4, image5, image6][selectedImageIndex]
-            }
+            src={renderImages()[selectedImageIndex]}
             alt="Party-image"
           />
         )}

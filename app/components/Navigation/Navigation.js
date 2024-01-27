@@ -33,6 +33,7 @@ export default function Navigation() {
               className={classes["menu-bars"]}
               src={menuBars}
               alt="Menu bars"
+              priority
             />
           </button>
         </div>
