@@ -79,7 +79,7 @@
 
 @media (max-width: 700px) {
   .header {
-    height: 14em;
+    height: 16em;
     display: flex;
     align-items: center;
   }
