@@ -2,12 +2,15 @@ import Link from "next/link";
 
 import classes from "./Footer.module.css";
 
-export default function Footer() {
+import initTranslations from "@/app/i18n";
+
+export default async function Footer({ locale }) {
+  const { t } = await initTranslations(locale, ["home"]);
   return (
     <footer className={classes.footer}>
       <div className={classes["footer-text"]}>
         <p className="copyright">
-          Copyright © 2024 S.I.P.I. All Rights Reserved | Crafted by
+          {t("footer")}
           <Link
             href="https://github.com/Vasillena"
             target="_blank"

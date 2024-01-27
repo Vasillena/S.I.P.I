@@ -11,23 +11,72 @@ import image4 from "@/public/menu-4.png";
 import image5 from "@/public/menu-5.png";
 import image6 from "@/public/menu-6.png";
 
-import menuList from "../../menuList/menuList.json";
+import menuListEN from "../../menuList/menuList.json";
+import menuListBG from "../../menuList/menuListBG.json";
+
+import { useTranslation } from "react-i18next";
 
 export default function Menu() {
   const [selectedTab, setSelectedTab] = useState("");
+  const { t, i18n } = useTranslation();
+
+  const locale = i18n.language;
+
+  const menuList = locale === "bg" ? menuListBG : menuListEN;
 
   const renderMenu = () => {
     const selectedCategory = menuList.menu.filter(
       (item) => item.category === selectedTab
     );
-    const categoryName = menuList.menu.find(
+    const categoryNameObj = menuList.menu.find(
       (item) => item.category === selectedTab
     );
 
-    if (selectedCategory && categoryName) {
+    let categoryName = "";
+
+    if (categoryNameObj) {
+      categoryName = categoryNameObj.category;
+
+      switch (categoryName) {
+        case "Hot Drinks":
+          if (locale == "bg") {
+            categoryName = "Топли Напитки";
+          }
+          break;
+        case "Soft Drinks":
+          if (locale == "bg") {
+            categoryName = "Безалкохолни Напитки";
+          }
+          break;
+        case "Cocktails":
+          if (locale == "bg") {
+            categoryName = "Коктейли";
+          }
+          break;
+        case "Wine":
+          if (locale == "bg") {
+            categoryName = "Вино";
+          }
+          break;
+        case "Alcohol":
+          if (locale == "bg") {
+            categoryName = "Алкохол";
+          }
+          break;
+        case "Beer":
+          if (locale == "bg") {
+            categoryName = "Бира";
+          }
+          break;
+        default:
+          break;
+      }
+    }
+
+    if (selectedCategory && categoryNameObj && categoryName) {
       return (
         <div className={classes.card}>
-          <h2>{categoryName.category}</h2>
+          <h2>{categoryName}</h2>
           {selectedCategory.map((item) => (
             <div key={item.id} className={classes["menu-card"]}>
               {item["semi-category"] && (
@@ -54,7 +103,7 @@ export default function Menu() {
   return (
     <>
       <div className={classes["menu-container"]}>
-        <h1>Menu</h1>
+        <h1>{t("title")}</h1>
         <div className={classes.menu}>
           <div className={classes["menu-section"]}>
             <button
@@ -63,7 +112,7 @@ export default function Menu() {
             >
               <Image src={image1} alt="Coffee icon" />
             </button>
-            <p className={classes["menu-titles"]}>Hot Drinks</p>
+            <p className={classes["menu-titles"]}>{t("hot-drinks")}</p>
           </div>
           <div className={classes["menu-section"]}>
             <button
@@ -72,7 +121,7 @@ export default function Menu() {
             >
               <Image src={image2} alt="Soft drinks icon" />
             </button>
-            <p className={classes["menu-titles"]}>Soft Drinks</p>
+            <p className={classes["menu-titles"]}>{t("soft-drinks")}</p>
           </div>
           <div className={classes["menu-section"]}>
             <button
@@ -81,7 +130,7 @@ export default function Menu() {
             >
               <Image src={image3} alt="Cocktail icon" />
             </button>
-            <p className={classes["menu-titles"]}>Cocktails</p>
+            <p className={classes["menu-titles"]}>{t("cocktails")}</p>
           </div>
           <div className={classes["menu-section"]}>
             <button
@@ -90,7 +139,7 @@ export default function Menu() {
             >
               <Image src={image4} alt="Wine icon" />
             </button>
-            <p className={classes["menu-titles"]}>Wine</p>
+            <p className={classes["menu-titles"]}>{t("wine")}</p>
           </div>
           <div className={classes["menu-section"]}>
             <button
@@ -99,7 +148,7 @@ export default function Menu() {
             >
               <Image src={image5} alt="Alcohol icon" />
             </button>
-            <p className={classes["menu-titles"]}>Alcohol</p>
+            <p className={classes["menu-titles"]}>{t("alcohol")}</p>
           </div>
           <div className={classes["menu-section"]}>
             <button
@@ -108,7 +157,7 @@ export default function Menu() {
             >
               <Image src={image6} alt="Beer icon" />
             </button>
-            <p className={classes["menu-titles"]}>Beer</p>
+            <p className={classes["menu-titles"]}>{t("beer")}</p>
           </div>
         </div>
         {renderMenu()}

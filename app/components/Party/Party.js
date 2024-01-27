@@ -21,9 +21,12 @@ import image9 from "@/public/party-6.png";
 
 import arrow from "@/public/arrow.gif";
 
+import { useTranslation } from "react-i18next";
+
 export default function Party() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
+  const { t } = useTranslation();
 
   const isLandscape = () => {
     if (typeof window !== "undefined") {
@@ -56,10 +59,8 @@ export default function Party() {
     <>
       <div className={classes["party-container"]}>
         <div className={classes["title-container"]}>
-          <h1>Make your own party</h1>
-          <p>
-            Your corporate and special event in the heart of Kapana, Plovdiv
-          </p>
+          <h1>{t("title")}</h1>
+          <p>{t("subtitle")}</p>
         </div>
 
         <div className={classes["spots-container"]}>
@@ -70,7 +71,7 @@ export default function Party() {
               onClick={() => showModal(0)}
             >
               <Image src={image1} alt="Bar icon" />
-              <p>Inner Hall</p>
+              <p>{t("inner-hall")}</p>
             </button>
           </div>
           <div className={classes.spots}>
@@ -79,7 +80,7 @@ export default function Party() {
               onClick={() => showModal(1)}
             >
               <Image src={image2} alt="Garden icon" />
-              <p>Garden</p>
+              <p>{t("garden")}</p>
             </button>
           </div>
           <div className={classes.spots}>
@@ -88,20 +89,18 @@ export default function Party() {
               onClick={() => showModal(2)}
             >
               <Image src={image3} alt="Terrace icon" />
-              <p>Terrace</p>
+              <p>{t("terrace")}</p>
             </button>
             <Image className={classes["arrow-2"]} src={arrow} alt="Arrow" />
           </div>
         </div>
         <div className={classes["text-container"]}>
           <p>
-            With its unique location in the heart of Kapana, SIPI has the
-            perfect setting and organizational skills <br /> to make your event
-            unforgettable!
+            {t("bottom-text-1")} <br /> {t("bottom-text-2")}
           </p>
           <br />
           <Link href="/reserve">
-            <h1>Contact us</h1>
+            <h1>{t("contact")}</h1>
           </Link>
         </div>
       </div>

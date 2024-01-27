@@ -1,6 +1,9 @@
 "use client";
 
+import { useTranslation } from "react-i18next";
+
 export default function Error() {
+  const { t } = useTranslation();
   return (
     <div
       style={{
@@ -11,7 +14,7 @@ export default function Error() {
         justifyContent: "center",
       }}
     >
-      <h1>Something went wrong! Please try again later!</h1>
+      <h1>{t("error")}</h1>
     </div>
   );
 }

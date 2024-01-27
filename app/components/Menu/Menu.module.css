@@ -80,6 +80,8 @@
 
 .description {
   align-self: flex-start;
+  text-align: left;
+  padding-right: 40%;
 }
 
 @media (min-width: 701px) and (max-width: 1120px) {

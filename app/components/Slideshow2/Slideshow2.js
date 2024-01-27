@@ -19,18 +19,18 @@ import image11 from "@/public/15.png";
 import image12 from "@/public/16.png";
 
 const images = [
-  { image: image1, alt: "Party1" },
-  { image: image2, alt: "Party2" },
-  { image: image3, alt: "Party3" },
-  { image: image4, alt: "Party4" },
-  { image: image5, alt: "Party5" },
-  { image: image6, alt: "Party6" },
-  { image: image7, alt: "Party7" },
-  { image: image8, alt: "Party8" },
-  { image: image9, alt: "Party9" },
-  { image: image10, alt: "Party10" },
-  { image: image11, alt: "Party11" },
-  { image: image12, alt: "Party12" },
+  { image: image1, alt: "Party" },
+  { image: image2, alt: "Party" },
+  { image: image3, alt: "Party" },
+  { image: image4, alt: "Party" },
+  { image: image5, alt: "Party" },
+  { image: image6, alt: "Party" },
+  { image: image7, alt: "Party" },
+  { image: image8, alt: "Party" },
+  { image: image9, alt: "Party" },
+  { image: image10, alt: "Party" },
+  { image: image11, alt: "Party" },
+  { image: image12, alt: "Party" },
 ];
 
 const shuffleArray = (array) => {

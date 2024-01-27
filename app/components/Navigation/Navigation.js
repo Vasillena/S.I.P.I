@@ -1,5 +1,7 @@
 "use client";
 
+import { useTranslation } from "react-i18next";
+
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -12,6 +14,7 @@ import menuBars from "@/public/menu-bars.svg";
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { t } = useTranslation();
 
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
@@ -56,7 +59,7 @@ export default function Navigation() {
                   className={classes["navbar-link"]}
                   onClick={closeMenu}
                 >
-                  About us
+                  {t("about-us")}
                 </Link>
               </li>
               <li className={classes["navbar-item"]}>
@@ -65,7 +68,7 @@ export default function Navigation() {
                   className={classes["navbar-link"]}
                   onClick={closeMenu}
                 >
-                  Make a party
+                  {t("make-a-party")}
                 </Link>
               </li>
               <li className={classes["navbar-item"]}>
@@ -74,7 +77,7 @@ export default function Navigation() {
                   className={classes["navbar-link"]}
                   onClick={closeMenu}
                 >
-                  Menu
+                  {t("menu")}
                 </Link>
               </li>
               {/* <li className={classes["navbar-item"]}>
@@ -92,7 +95,7 @@ export default function Navigation() {
                   className={classes["navbar-link"]}
                   onClick={closeMenu}
                 >
-                  Reserve
+                  {t("reserve")}
                 </Link>
               </li>
             </div>

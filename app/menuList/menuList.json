@@ -3,6 +3,7 @@
     {
       "id": 1,
       "category": "Cocktails",
+      "semi-category": "Classic Cocktails",
       "name": "Negroni",
       "price": "12.00 BGN",
       "quantity": "120 ml",
@@ -59,6 +60,7 @@
     {
       "id": 8,
       "category": "Cocktails",
+      "semi-category": "Craft Cocktails",
       "name": "Sipi Club",
       "price": "12.90 BGN",
       "quantity": "180 ml",
