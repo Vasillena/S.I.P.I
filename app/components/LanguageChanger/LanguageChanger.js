@@ -96,15 +96,3 @@ export default function LanguageChanger() {
     </>
   );
 }
-
-//   return (
-//     <select
-//       className={classes.select}
-//       onChange={handleChange}
-//       value={currentLocale}
-//     >
-//       <option value="bg">BG</option>
-//       <option value="en">EN</option>
-//     </select>
-//   );
-// }

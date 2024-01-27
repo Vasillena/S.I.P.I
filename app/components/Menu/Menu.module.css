@@ -1,6 +1,6 @@
 .menu-container {
   width: 100%;
-  padding-top: 20vh;
+  padding: 20vh 1em 0 1em;
   font-size: 1vw;
   text-align: center;
 }
@@ -25,12 +25,13 @@
   opacity: 0;
   animation: sliderReveal 1s ease forwards;
   animation-delay: 0.6s;
+  width: 14vw;
+  text-align: center;
 }
 
 .menu {
   display: flex;
-  justify-content: center;
-  gap: 5vw;
+  justify-content: space-evenly;
   margin: 3em 0;
 }
 
@@ -106,6 +107,10 @@
 
   .menu {
     flex-wrap: wrap;
+  }
+
+  .menu-titles {
+    width: 30vw;
   }
 
   .menu-section img {

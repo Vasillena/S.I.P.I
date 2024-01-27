@@ -1,3 +1,5 @@
+import { Gloria_Hallelujah } from "next/font/google";
+
 import Link from "next/link";
 import Image from "next/image";
 
@@ -7,9 +9,14 @@ import image1 from "@/public/socials-1.png";
 import image2 from "@/public/socials-2.png";
 import image3 from "@/public/socials-3.png";
 
+const gloriaHallelujah = Gloria_Hallelujah({
+  subsets: ["latin"],
+  weight: "400",
+});
+
 export default function Socials() {
   return (
-    <div className={classes["socials"]}>
+    <div className={`${classes.socials} ${gloriaHallelujah.className}`}>
       <ul className={classes["socials-list"]}>
         <li>
           <Link

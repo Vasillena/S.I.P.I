@@ -11,7 +11,6 @@ export default function GoogleMaps() {
   useEffect(() => {
     const initMap = async () => {
       const loader = new Loader({
-        // apiKey: "AIzaSyAnVRufresQxolKbe1yLbJAQDtbQqFqtHQ",
         apiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY,
         version: "weekly",
       });
