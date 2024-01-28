@@ -10,7 +10,7 @@ import classes from "./Navigation.module.css";
 
 import logoImg from "@/public/logo.png";
 import logoImg2 from "@/public/logo2.png";
-import menuBars from "@/public/menu-bars.svg";
+import menuBars from "@/public/menu-bars.png";
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,7 +27,7 @@ export default function Navigation() {
   return (
     <header className={classes.header}>
       <div>
-        <div>
+        <div className={classes["mobile-header"]}>
           <button className={classes["menu-button"]} onClick={toggleMenu}>
             <Image
               className={classes["menu-bars"]}
@@ -36,6 +36,15 @@ export default function Navigation() {
               priority
             />
           </button>
+          <Image
+            className={classes["mobile-logo-2"]}
+            width={50}
+            src={logoImg2}
+            alt="Logo"
+          />
+        </div>
+        <div className={classes["mobile-logo"]}>
+          <Image width={90} src={logoImg} alt="Logo" />
         </div>
         <nav
           className={`${classes.nav} ${isMenuOpen ? classes["menu-open"] : ""}`}

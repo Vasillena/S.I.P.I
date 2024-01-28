@@ -60,14 +60,15 @@
   animation-delay: 0.6s;
 }
 
-.text-container h1 {
+.text-container h2 {
   display: inline;
+  font-size: 2vw;
   opacity: 0;
   animation: sliderReveal 1s ease forwards;
   animation-delay: 1.2s;
 }
 
-.text-container h1:hover {
+.text-container h2:hover {
   color: #f170a9;
 }
 
@@ -115,6 +116,10 @@
   .spots button {
     width: 5.5em;
   }
+
+  .text-container h2 {
+    font-size: 5vw;
+  }
 }
 
 @media (max-width: 700px) {
@@ -125,5 +130,9 @@
 
   .spots button {
     width: 4em;
+  }
+
+  .text-container h2 {
+    font-size: 8vw;
   }
 }

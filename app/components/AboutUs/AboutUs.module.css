@@ -3,17 +3,58 @@
   font-size: 1vw;
   text-align: center;
   padding: 20vh 20vw 0 20vw;
+  overflow-x: hidden;
 }
 
 .about-us h1 {
   animation: sliderReveal 1s ease forwards;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
+}
+
+.about-us h2 {
+  margin: 2em 0 1em 0;
+  text-align: center;
 }
 
 .about-us p {
+  text-align: center;
+  width: 20vw;
+  opacity: 0;
+  animation: sliderReveal 1s ease forwards;
+  animation-delay: 1.2s;
+}
+
+.paragraph-container {
+  width: 100%;
+  margin-left: -14vw;
+  padding: 0 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8vw;
+}
+
+.paragraph-container img {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 10em;
   opacity: 0;
   animation: sliderReveal 1s ease forwards;
   animation-delay: 0.6s;
+}
+
+.paragraph-container.even {
+  flex-direction: row-reverse;
+  margin-left: 13vw;
+}
+
+.trail img {
+  width: 24vw;
+  height: auto;
+  margin: 0 auto;
+  opacity: 0;
+  animation: sliderReveal 1s ease forwards;
+  animation-delay: 1.8s;
 }
 
 @keyframes sliderReveal {
@@ -31,8 +72,8 @@
 @media (min-width: 701px) and (max-width: 1120px) {
   .about-us {
     font-size: 1.5vw;
-    padding: 20vh 12vw;
-    text-align: justify;
+    /* padding: 20vh 12vw;
+    text-align: justify; */
   }
 
   .about-us h1 {
@@ -43,11 +84,40 @@
 @media (max-width: 700px) {
   .about-us {
     font-size: 3vw;
-    padding: 10vh 12vw;
+    padding: 10vh 2vw;
     text-align: justify;
   }
 
   .about-us h1 {
     text-align: center;
+    margin: 1em 0;
+  }
+
+  .about-us p {
+    width: 60vw;
+  }
+
+  .paragraph-container {
+    margin-left: 0;
+    flex-direction: column;
+  }
+
+  .paragraph-container.even {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .paragraph-container img {
+    width: 40vw;
+    height: 40vw;
+  }
+
+  .trail {
+    text-align: center;
+    margin: 2em 0;
+  }
+
+  .trail img {
+    width: 40vw;
   }
 }

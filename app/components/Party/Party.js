@@ -119,8 +119,10 @@ export default function Party() {
             {t("bottom-text-1")} <br /> {t("bottom-text-2")}
           </p>
           <br />
+          <br />
+          <br />
           <Link href="/reserve">
-            <h1>{t("contact")}</h1>
+            <h2>{t("contact")}</h2>
           </Link>
         </div>
       </div>

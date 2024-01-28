@@ -5,9 +5,9 @@ import Image from "next/image";
 
 import classes from "./Socials.module.css";
 
-import image1 from "@/public/socials-1.png";
-import image2 from "@/public/socials-2.png";
-import image3 from "@/public/socials-3.png";
+import image1 from "@/public/socials-1.svg";
+import image2 from "@/public/socials-2.svg";
+import image3 from "@/public/socials-3.svg";
 
 const gloriaHallelujah = Gloria_Hallelujah({
   subsets: ["latin"],

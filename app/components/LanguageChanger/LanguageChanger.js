@@ -1,5 +1,7 @@
 "use client";
 
+import { Gloria_Hallelujah } from "next/font/google";
+
 import { useEffect, useState } from "react";
 
 import Image from "next/image";
@@ -7,12 +9,18 @@ import classes from "./LanguageChanger.module.css";
 
 import flagBG from "@/public/flagBG.png";
 import flagEN from "@/public/flagEN.png";
+import language from "@/public/language.svg";
 
 import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
 import { useTranslation } from "react-i18next";
 import i18nConfig from "@/i18nConfig";
 import CookieConsent from "react-cookie-consent";
+
+const gloriaHallelujah = Gloria_Hallelujah({
+  subsets: ["latin"],
+  weight: "400",
+});
 
 export default function LanguageChanger() {
   const { i18n } = useTranslation();
@@ -21,7 +29,6 @@ export default function LanguageChanger() {
   const currentPathname = usePathname();
   const [showCookieConsent, setShowCookieConsent] = useState(false);
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
-  const [isUp, setisUp] = useState(false);
 
   const handleChange = (e) => {
     const newLocale = e.target.value;
@@ -58,12 +65,7 @@ export default function LanguageChanger() {
   }, []);
 
   const toggleLanguage = () => {
-    if (!isUp) {
-      setIsLanguageOpen(true);
-      setisUp(true);
-    } else {
-      setIsLanguageOpen(!isLanguageOpen);
-    }
+    setIsLanguageOpen((prev) => !prev);
   };
 
   return (
@@ -80,12 +82,15 @@ export default function LanguageChanger() {
           Our site uses cookies.
         </CookieConsent>
       )}
-      <button
-        className={`${classes.language} ${
+
+      <div
+        className={`${classes.language} ${gloriaHallelujah.className} ${
           isLanguageOpen ? classes["language-open"] : ""
         }`}
-        onClick={toggleLanguage}
       >
+        <button className={classes["open-close"]} onClick={toggleLanguage}>
+          <Image src={language} alt="Globe" width={16} />
+        </button>
         <label>
           <input
             type="radio"
@@ -95,7 +100,7 @@ export default function LanguageChanger() {
             checked={currentLocale === "bg"}
             style={{ display: "none" }}
           />
-          <Image src={flagBG} alt="BG flag" width={24} />
+          <Image src={flagBG} alt="BG flag" width={20} />
         </label>
         <label>
           <input
@@ -106,9 +111,9 @@ export default function LanguageChanger() {
             checked={currentLocale === "en"}
             style={{ display: "none" }}
           />
-          <Image src={flagEN} alt="EN flag" width={24} />
+          <Image src={flagEN} alt="EN flag" width={20} />
         </label>
-      </button>
+      </div>
     </>
   );
 }

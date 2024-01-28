@@ -7,6 +7,7 @@ import BackToTop from "../components/BackToTop/BackToTop";
 
 import initTranslations from "@/app/i18n";
 import TranslationsProvider from "../components/TranslationsProvider";
+import LanguageChanger from "../components/LanguageChanger/LanguageChanger";
 
 const gloriaHallelujah = Gloria_Hallelujah({
   subsets: ["latin"],
@@ -40,6 +41,7 @@ export default async function RootLayout({ children, params: { locale } }) {
             {children}
             <Socials />
             <BackToTop />
+            <LanguageChanger />
             <Footer locale={locale} />
           </TranslationsProvider>
         </body>

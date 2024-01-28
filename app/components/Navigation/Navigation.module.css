@@ -1,4 +1,6 @@
-.menu-button {
+.menu-button,
+.mobile-logo,
+.mobile-logo-2 {
   display: none;
 }
 
@@ -85,16 +87,45 @@
     align-items: center;
   }
 
+  .mobile-header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
   .menu-button {
+    all: unset;
     display: block;
     border: none;
     width: 1em;
-    padding: 0 1em;
-    background-color: #f170a9;
+    margin-left: 3em;
+    /* background-color: #f170a9; */
+    z-index: 1000;
+  }
+
+  .mobile-logo-2 {
+    display: block;
+    margin-right: 3em;
+  }
+
+  .mobile-logo {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 3em;
+  }
+
+  .mobile-logo img {
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: rotate;
   }
 
   .menu-bars {
-    background-color: #f170a9;
+    width: 4em;
+    height: auto;
   }
 
   .nav {
