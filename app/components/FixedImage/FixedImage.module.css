@@ -34,19 +34,25 @@
 
 @media (min-width: 701px) and (max-width: 1120px) {
   .fixed-image {
-    height: 50em;
+    height: 30em;
+    margin-top: 2em;
+  }
+
+  .fixed-image::before {
+    background-attachment: local;
   }
 
   .fixed-image-in {
     width: 10vw;
     flex-direction: column;
     gap: 2em;
+    margin-top: -14em;
   }
 }
 
 @media (max-width: 700px) {
   .fixed-image {
-    height: 14em;
+    height: 24em;
     margin-top: 2em;
   }
 

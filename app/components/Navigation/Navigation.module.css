@@ -11,42 +11,56 @@
 .header {
   position: fixed;
   top: 0;
-  width: 100%;
-  height: 4.5em;
+  width: 100vw;
+  height: 4em;
   z-index: 100;
   background-color: #f170a9;
   box-shadow: 1px 0 0.8rem gray;
   text-transform: uppercase;
-  font-size: 0.8vw;
-  padding: 0.8em 0;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0.8em 0; */
+}
+
+.navbar-container {
+  width: 100vw;
 }
 
 .navbar-list {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
-  margin: 0 1.5em;
+  padding: 0 6vw;
+  /* margin: 0 12vw; */
 }
 
-.second-list {
-  width: 40vw;
+.navbar-item,
+.navbar-item-home {
+  width: 12em;
+  text-align: center;
+}
+
+.navbar-item-home {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .navbar-item:hover {
   transform: translateY(-0.2em);
 }
 
-.home-link img {
-  width: 2.5em;
-  height: auto;
-  margin: 0 0.3em;
+.home-link {
+  position: fixed;
+  top: 1em;
 }
 
-.home-link img:nth-of-type(1) {
-  padding-top: 0.2em;
+.home-link img {
+  width: 6em;
+  height: auto;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -65,32 +79,21 @@
   }
 }
 
-.home-link img:nth-of-type(2) {
+/* .home-link img:nth-of-type(2) {
   width: 3em;
   padding-bottom: 0.4em;
-}
+} */
 
 .back-to-top {
   display: none;
 }
 
-@media (min-width: 701px) and (max-width: 1120px) {
-  .header {
-    font-size: 1.5vw;
-  }
-}
-
 @media (max-width: 700px) {
-  .header {
-    height: 16em;
-    display: flex;
-    align-items: center;
-  }
-
   .mobile-header {
     width: 100vw;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .menu-button {
@@ -98,34 +101,24 @@
     display: block;
     border: none;
     width: 1em;
-    margin-left: 3em;
-    /* background-color: #f170a9; */
+    margin-left: 2em;
     z-index: 1000;
   }
 
-  .mobile-logo-2 {
-    display: block;
-    margin-right: 3em;
+  .menu-bars {
+    width: 1.5em;
+    height: auto;
   }
 
   .mobile-logo {
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    width: 100%;
-    top: 3em;
-  }
-
-  .mobile-logo img {
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-name: rotate;
-  }
-
-  .menu-bars {
+    display: block;
     width: 4em;
     height: auto;
+    margin-right: 2em;
+  }
+
+  .home-link img {
+    width: 4em;
   }
 
   .nav {
@@ -133,7 +126,8 @@
     top: -5000%;
     height: 100vh;
     width: 100%;
-    padding-top: 5em;
+    padding-top: 40vh;
+    font-size: 1.5em;
     z-index: 100;
     opacity: 0.9;
     transition: top 0.3s ease;
@@ -141,20 +135,7 @@
   }
 
   .navbar-list {
-    display: flex;
     flex-direction: column;
-  }
-
-  .first-list {
-    font-size: 8vw;
-    padding: 3em 0;
-  }
-
-  .second-list {
-    flex-direction: column;
-    align-items: center;
-    font-size: 4vw;
-    gap: 3vh;
-    text-align: center;
+    gap: 1em;
   }
 }

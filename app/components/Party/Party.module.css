@@ -78,8 +78,9 @@
   visibility: hidden;
   width: 100%;
   height: auto;
-  position: fixed;
-  top: 12vh;
+  /* position: fixed; */
+  position: static;
+  /* top: 12vh; */
   text-align: center;
 }
 
@@ -90,9 +91,10 @@
 }
 
 .modal-image {
-  width: 80vw;
-  height: 80vh;
+  width: 50vw;
+  height: auto;
   border-radius: 0.5em;
+  margin-bottom: 2em;
 }
 
 @keyframes sliderReveal {
@@ -124,7 +126,7 @@
 
 @media (max-width: 700px) {
   .party-container {
-    padding: 10vh 12vw;
+    padding: 10em 12vw;
     font-size: 3vw;
   }
 
@@ -134,5 +136,9 @@
 
   .text-container h2 {
     font-size: 8vw;
+  }
+  .modal-image {
+    width: 70vw;
+    height: auto;
   }
 }

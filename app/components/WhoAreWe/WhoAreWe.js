@@ -1,4 +1,8 @@
+import Image from "next/image";
+
 import classes from "./WhoAreWe.module.css";
+
+import divider from "@/public/divider.png";
 
 import initTranslations from "@/app/i18n";
 
@@ -8,6 +12,7 @@ export default async function WhoAreWe({ locale }) {
     <div className={classes["who-are-we"]}>
       <h1>{t("title")}</h1>
       <p>{t("text-1")}</p>
+      <Image src={divider} alt="Divider" />
     </div>
   );
 }

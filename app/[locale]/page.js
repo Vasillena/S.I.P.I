@@ -8,7 +8,6 @@ import logoImg from "@/public/logo2.png";
 
 import initTranslations from "@/app/i18n";
 import TranslationsProvider from "../components/TranslationsProvider";
-// import LanguageChanger from "../components/LanguageChanger/LanguageChanger";
 
 export default async function App({ params: { locale } }) {
   const { resources } = await initTranslations(locale, ["home"]);
@@ -23,7 +22,6 @@ export default async function App({ params: { locale } }) {
         <WhoAreWe locale={locale} />
         <FixedImage locale={locale} />
         <Image src={logoImg} alt="Logo" width={250} />
-        {/* <LanguageChanger /> */}
       </main>
     </TranslationsProvider>
   );

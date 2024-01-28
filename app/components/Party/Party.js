@@ -1,7 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -19,14 +18,6 @@ import image7 from "@/public/party-4.png";
 import image8 from "@/public/party-5.png";
 import image9 from "@/public/party-6.png";
 
-import image10 from "@/public/party-7.png";
-import image11 from "@/public/party-8.png";
-import image12 from "@/public/party-9.png";
-
-import image13 from "@/public/party-10.png";
-import image14 from "@/public/party-11.png";
-import image15 from "@/public/party-12.png";
-
 import arrow from "@/public/arrow.gif";
 
 import { useTranslation } from "react-i18next";
@@ -36,43 +27,34 @@ export default function Party() {
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
   const { t, i18n } = useTranslation();
 
-  const isLandscape = () => {
-    if (typeof window !== "undefined") {
-      return window.innerWidth > window.innerHeight;
-    }
-    return false;
-  };
-
   const showModal = (index) => {
     setSelectedImageIndex(index);
     setIsModalOpen(true);
   };
 
   useEffect(() => {
-    if (isModalOpen) {
-      const closeModal = () => {
+    const closeModal = (event) => {
+      if (!event.target.closest("button")) {
         setSelectedImageIndex(null);
         setIsModalOpen(false);
-      };
+      }
+    };
 
+    if (isModalOpen) {
       document.addEventListener("click", closeModal);
-
-      return () => {
-        document.removeEventListener("click", closeModal);
-      };
+    } else {
+      document.removeEventListener("click", closeModal);
     }
+
+    return () => {
+      document.removeEventListener("click", closeModal);
+    };
   }, [isModalOpen]);
 
   const renderImages = () => {
-    if (i18n.language === "bg") {
-      return isLandscape()
-        ? [image13, image14, image15]
-        : [image10, image11, image12];
-    } else {
-      return isLandscape()
-        ? [image7, image8, image9]
-        : [image4, image5, image6];
-    }
+    return i18n.language === "bg"
+      ? [image7, image8, image9]
+      : [image4, image5, image6];
   };
 
   return (
@@ -114,6 +96,15 @@ export default function Party() {
             <Image className={classes["arrow-2"]} src={arrow} alt="Arrow" />
           </div>
         </div>
+        <div className={`${classes.modal} ${isModalOpen ? classes.show : ""}`}>
+          {selectedImageIndex !== null && (
+            <Image
+              className={classes["modal-image"]}
+              src={renderImages()[selectedImageIndex]}
+              alt="Party-image"
+            />
+          )}
+        </div>
         <div className={classes["text-container"]}>
           <p>
             {t("bottom-text-1")} <br /> {t("bottom-text-2")}
@@ -125,15 +116,6 @@ export default function Party() {
             <h2>{t("contact")}</h2>
           </Link>
         </div>
-      </div>
-      <div className={`${classes.modal} ${isModalOpen ? classes.show : ""}`}>
-        {selectedImageIndex !== null && (
-          <Image
-            className={classes["modal-image"]}
-            src={renderImages()[selectedImageIndex]}
-            alt="Party-image"
-          />
-        )}
       </div>
     </>
   );

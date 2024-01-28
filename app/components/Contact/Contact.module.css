@@ -69,7 +69,7 @@
 @media (max-width: 700px) {
   .contact {
     font-size: 3vw;
-    padding: 10vh 12vw;
+    padding: 10em 12vw;
   }
 
   .contact-image {

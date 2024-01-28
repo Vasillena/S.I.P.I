@@ -5,6 +5,11 @@
   font-size: 1.5vw;
 }
 
+.who-are-we img {
+  width: 100%;
+  height: auto;
+}
+
 @media (min-width: 701px) and (max-width: 1120px) {
   .who-are-we {
     padding: 0 12vw;
@@ -17,6 +22,6 @@
   .who-are-we {
     padding: 0 12vw;
     font-size: 3vw;
-    margin-bottom: 22vh;
+    margin-bottom: 12vh;
   }
 }

@@ -4,7 +4,7 @@ import initTranslations from "@/app/i18n";
 import TranslationsProvider from "../../components/TranslationsProvider";
 
 export const metadata = {
-  title: "Meake a party",
+  title: "Make a party",
   description:
     "Make your own party. Browse our options for creating the perfect party for you.",
 };
