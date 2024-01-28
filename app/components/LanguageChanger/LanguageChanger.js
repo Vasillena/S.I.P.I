@@ -20,6 +20,8 @@ export default function LanguageChanger() {
   const router = useRouter();
   const currentPathname = usePathname();
   const [showCookieConsent, setShowCookieConsent] = useState(false);
+  const [isLanguageOpen, setIsLanguageOpen] = useState(false);
+  const [isUp, setisUp] = useState(false);
 
   const handleChange = (e) => {
     const newLocale = e.target.value;
@@ -49,11 +51,20 @@ export default function LanguageChanger() {
       .split(";")
       .find((cookie) => cookie.trim().startsWith("CookieConsent="));
     if (consentCookie && consentCookie.split("=")[1] === "true") {
-      setShowCookieConsent(false); // Don't show CookieConsent banner if already accepted
+      setShowCookieConsent(false);
     } else {
       setShowCookieConsent(true);
     }
   }, []);
+
+  const toggleLanguage = () => {
+    if (!isUp) {
+      setIsLanguageOpen(true);
+      setisUp(true);
+    } else {
+      setIsLanguageOpen(!isLanguageOpen);
+    }
+  };
 
   return (
     <>
@@ -69,7 +80,12 @@ export default function LanguageChanger() {
           Our site uses cookies.
         </CookieConsent>
       )}
-      <div className={classes.radioGroup}>
+      <button
+        className={`${classes.language} ${
+          isLanguageOpen ? classes["language-open"] : ""
+        }`}
+        onClick={toggleLanguage}
+      >
         <label>
           <input
             type="radio"
@@ -79,7 +95,7 @@ export default function LanguageChanger() {
             checked={currentLocale === "bg"}
             style={{ display: "none" }}
           />
-          <Image src={flagBG} alt="BG flag" width={30} />
+          <Image src={flagBG} alt="BG flag" width={24} />
         </label>
         <label>
           <input
@@ -90,9 +106,9 @@ export default function LanguageChanger() {
             checked={currentLocale === "en"}
             style={{ display: "none" }}
           />
-          <Image src={flagEN} alt="EN flag" width={30} />
+          <Image src={flagEN} alt="EN flag" width={24} />
         </label>
-      </div>
+      </button>
     </>
   );
 }

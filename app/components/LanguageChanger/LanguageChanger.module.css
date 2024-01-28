@@ -1,7 +1,19 @@
-.radioGroup {
-  margin-top: 1em;
+.language {
+  all: unset;
+  position: fixed;
+  bottom: -2.5em;
+  right: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5em;
+  border-radius: 0.5em 0.5em 0 0;
+  background-color: black;
+  z-index: 90;
+  transition: right 0.3s ease;
+  cursor: pointer;
 }
 
-.radioGroup img {
-  cursor: pointer;
+.language-open {
+  bottom: 0;
 }

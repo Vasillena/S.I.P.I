@@ -17,7 +17,7 @@ export default async function Footer({ locale }) {
             className={classes["github-link"]}
           >
             {" "}
-            Vasillena
+            VY
           </Link>
         </p>
       </div>
