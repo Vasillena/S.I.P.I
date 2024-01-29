@@ -78,9 +78,7 @@
   visibility: hidden;
   width: 100%;
   height: auto;
-  /* position: fixed; */
   position: static;
-  /* top: 12vh; */
   text-align: center;
 }
 

@@ -47,19 +47,6 @@ export default function Navigation() {
           className={`${classes.nav} ${isMenuOpen ? classes["menu-open"] : ""}`}
         >
           <ul className={classes["navbar-list"]}>
-            {/* <div className={classes["first-list"]}>
-              <li className={classes["navbar-item"]}>
-                <Link
-                  href="/"
-                  className={classes["home-link"]}
-                  onClick={closeMenu}
-                >
-                  <Image src={logoImg} alt="Logo" />
-                  <Image src={logoImg2} alt="Logo" />
-                </Link>
-              </li>
-            </div> */}
-            {/* <div className={classes["second-list"]}> */}
             <li className={classes["navbar-item"]}>
               <Link
                 href="/about-us"
@@ -110,7 +97,6 @@ export default function Navigation() {
                 {t("reserve")}
               </Link>
             </li>
-            {/* </div> */}
           </ul>
         </nav>
       </div>

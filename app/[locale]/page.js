@@ -21,7 +21,7 @@ export default async function App({ params: { locale } }) {
         <ImageSlideshow />
         <WhoAreWe locale={locale} />
         <FixedImage locale={locale} />
-        <Image src={logoImg} alt="Logo" width={250} />
+        <Image className={styles.logo} src={logoImg} alt="Logo" />
       </main>
     </TranslationsProvider>
   );
