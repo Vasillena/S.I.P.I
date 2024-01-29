@@ -116,8 +116,12 @@
     margin-left: 1.5em;
   }
 
+  .home-link {
+    top: 0.5em;
+  }
+
   .home-link img {
-    width: 4em;
+    width: 3.5em;
   }
 
   .nav {

@@ -36,11 +36,7 @@ export default function Navigation() {
               priority
             />
           </button>
-          <Link
-            href="/"
-            className={classes["navbar-link"]}
-            onClick={toggleMenu}
-          >
+          <Link href="/" className={classes["navbar-link"]} onClick={closeMenu}>
             <Image
               className={classes["mobile-logo"]}
               width={50}
@@ -75,7 +71,7 @@ export default function Navigation() {
               <Link
                 href="/"
                 className={classes["home-link"]}
-                onClick={toggleMenu}
+                onClick={closeMenu}
               >
                 <Image src={logoImg} alt="Logo" />
               </Link>
