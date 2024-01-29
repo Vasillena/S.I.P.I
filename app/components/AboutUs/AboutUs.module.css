@@ -81,7 +81,7 @@
 
 @media (max-width: 700px) {
   .about-us {
-    font-size: 3vw;
+    font-size: 3.5vw;
     padding: 10em 2vw;
     text-align: justify;
   }
@@ -92,7 +92,7 @@
   }
 
   .about-us p {
-    width: 60vw;
+    width: 70vw;
   }
 
   .paragraph-container {
@@ -106,8 +106,8 @@
   }
 
   .paragraph-container img {
-    width: 40vw;
-    height: 40vw;
+    width: 50vw;
+    height: 50vw;
   }
 
   .trail {

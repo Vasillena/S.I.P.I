@@ -34,7 +34,7 @@
 
 @media (min-width: 701px) and (max-width: 1120px) {
   .fixed-image {
-    height: 30em;
+    height: 34em;
     margin-top: 2em;
   }
 
@@ -52,7 +52,7 @@
 
 @media (max-width: 700px) {
   .fixed-image {
-    height: 24em;
+    height: 30em;
     margin-top: 2em;
   }
 

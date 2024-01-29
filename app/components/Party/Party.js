@@ -106,9 +106,7 @@ export default function Party() {
           )}
         </div>
         <div className={classes["text-container"]}>
-          <p>
-            {t("bottom-text-1")} <br /> {t("bottom-text-2")}
-          </p>
+          <p>{t("bottom-text")}</p>
           <br />
           <br />
           <br />
