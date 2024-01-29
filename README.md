@@ -151,7 +151,11 @@ S.I.P.I. is a real place in Plovdiv and this is soon-to-be it's official website
 ## 📷 Screenshots
 
 -----Mobile Version-----
-
+![Screenshot 01](https://github.com/Vasillena/S.I.P.I./assets/114015792/1c22eb59-e126-4cb3-9898-483bc113318e)
+![Screenshot 02](https://github.com/Vasillena/S.I.P.I./assets/114015792/f34c1506-4cea-4e20-92a1-a502cf359817)
+![Screenshot 03](https://github.com/Vasillena/S.I.P.I./assets/114015792/874c6717-cab0-40d4-8ae9-5e2dd6a09d38)
+![Screenshot 04](https://github.com/Vasillena/S.I.P.I./assets/114015792/0abae396-e865-4d6c-9cc9-3ac38b08df5f)
+![Screenshot 05](https://github.com/Vasillena/S.I.P.I./assets/114015792/f40eef93-150c-405d-8579-7c5cb8f8ee90)
 
 ------------------------
 ![Screenshot 1](https://github.com/Vasillena/S.I.P.I./assets/114015792/54054280-a757-40c9-8742-be8903ae27d8)
