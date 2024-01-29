@@ -55,6 +55,7 @@
 }
 
 .text-container p {
+  padding: 0 25vw;
   opacity: 0;
   animation: sliderReveal 1s ease forwards;
   animation-delay: 0.6s;
@@ -117,6 +118,10 @@
     width: 5.5em;
   }
 
+  .text-container p {
+    padding: 0 12vw;
+  }
+
   .text-container h2 {
     font-size: 5vw;
   }
@@ -130,6 +135,10 @@
 
   .spots button {
     width: 4em;
+  }
+
+  .text-container p {
+    padding: 0 2vw;
   }
 
   .text-container h2 {

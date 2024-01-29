@@ -1,0 +1,156 @@
+- .env
+- .eslintrc.json
+- .gitignore
+- app
+  - components
+    - AboutUs
+      - AboutUs.js
+      - AboutUs.module.css
+    - BackToTop
+      - BackToTop.js
+      - BackToTop.module.css
+    - Contact
+      - Contact.js
+      - Contact.module.css
+    - FixedImage
+      - FixedImage.js
+      - FixedImage.module.css
+    - FixedImageText
+      - FixedImageText.js
+      - FixedImageText.module.css
+    - Footer
+      - Footer.js
+      - Footer.module.css
+    - GoogleMaps
+      - GoogleMaps.js
+      - GoogleMaps.module.css
+    - LanguageChanger
+      - LanguageChanger.js
+      - LanguageChanger.module.css
+    - Menu
+      - Menu.js
+      - Menu.module.css
+    - Merch
+      - Merch.js
+      - Merch.module.css
+    - Navigation
+      - Navigation.js
+      - Navigation.module.css
+    - Party
+      - Party.js
+      - Party.module.css
+    - Slideshow
+      - Slideshow.js
+      - Slideshow.module.css
+    - Slideshow2
+      - Slideshow2.js
+      - Slideshow2.module.css
+    - Socials
+      - Socials.js
+      - Socials.module.css
+    - TranslationsProvider.js
+    - WhoAreWe
+      - WhoAreWe.js
+      - WhoAreWe.module.css
+  - favicon.ico
+  - i18n.js
+  - menuList
+    - menuList.json
+    - menuListBG.json
+  - [locale]
+    - about-us
+      - page.js
+    - error.js
+    - globals.css
+    - layout.js
+    - loading.js
+    - make-a-party
+      - page.js
+    - menu
+      - page.js
+    - merch
+      - page.js
+    - not-found.js
+    - page.js
+    - page.module.css
+    - reserve
+      - page.js
+    - [...rest]
+      - page.js
+- i18nConfig.js
+- jsconfig.json
+- LICENSE
+- locales
+  - bg
+    - about-us.json
+    - home.json
+    - make-a-party.json
+    - menu.json
+    - reserve.json
+  - en
+    - about-us.json
+    - home.json
+    - make-a-party.json
+    - menu.json
+    - reserve.json
+- middleware.js
+- next.config.js
+- package-lock.json
+- package.json
+- public
+  - 1.jpg
+  - 10.png
+  - 11.png
+  - 12.png
+  - 13.png
+  - 14.png
+  - 15.png
+  - 16.png
+  - 17.png
+  - 18.png
+  - 19.png
+  - 2.jpg
+  - 20.png
+  - 21.png
+  - 22.png
+  - 3.jpg
+  - 4.png
+  - 5.png
+  - 6.png
+  - 7.png
+  - 8.png
+  - 9.png
+  - arrow.gif
+  - back-to-top.png
+  - divider.png
+  - flagBG.png
+  - flagEN.png
+  - frog.png
+  - language.svg
+  - loading.gif
+  - logo.png
+  - logo2.png
+  - logo3.png
+  - menu-1.png
+  - menu-2.png
+  - menu-3.png
+  - menu-4.png
+  - menu-5.png
+  - menu-6.png
+  - menu-bars.png
+  - party-1.png
+  - party-2.png
+  - party-3.png
+  - party-4.png
+  - party-5.png
+  - party-6.png
+  - party-icon-1.png
+  - party-icon-2.png
+  - party-icon-3.png
+  - photothumb.db
+  - socials-1.svg
+  - socials-2.svg
+  - socials-3.svg
+  - trail-2.png
+  - trail.png
+- README.md
