@@ -49,7 +49,7 @@ export default function LanguageChanger() {
         currentPathname.replace(`/${currentLocale}`, `/${newLocale}`)
       );
     }
-
+    setIsLanguageOpen(false);
     router.refresh();
   };
 

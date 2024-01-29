@@ -53,6 +53,7 @@
   }
 
   .slideshow::after {
-    background-size: 24em;
+    background-size: 18em;
+    background-attachment: local;
   }
 }

@@ -36,12 +36,18 @@ export default function Navigation() {
               priority
             />
           </button>
-          <Image
-            className={classes["mobile-logo"]}
-            width={50}
-            src={logoImg2}
-            alt="Logo"
-          />
+          <Link
+            href="/"
+            className={classes["navbar-link"]}
+            onClick={toggleMenu}
+          >
+            <Image
+              className={classes["mobile-logo"]}
+              width={50}
+              src={logoImg2}
+              alt="Logo"
+            />
+          </Link>
         </div>
         <nav
           className={`${classes.nav} ${isMenuOpen ? classes["menu-open"] : ""}`}
@@ -66,7 +72,11 @@ export default function Navigation() {
               </Link>
             </li>
             <li className={classes["navbar-item-home"]}>
-              <Link href="/" className={classes["home-link"]}>
+              <Link
+                href="/"
+                className={classes["home-link"]}
+                onClick={toggleMenu}
+              >
                 <Image src={logoImg} alt="Logo" />
               </Link>
             </li>
