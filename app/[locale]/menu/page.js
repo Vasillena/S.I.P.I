@@ -3,10 +3,85 @@ import Menu from "../../components/Menu/Menu";
 import initTranslations from "@/app/i18n";
 import TranslationsProvider from "../../components/TranslationsProvider";
 
-export const metadata = {
-  title: "Menu",
-  description: "Browse our menu.",
-};
+export async function generateMetadata(locale) {
+  let title, description, keywords;
+
+  if (locale.params.locale === "bg") {
+    title = "Меню | sipi.bg";
+    description = "Разгледайте нашето меню.";
+    keywords = [
+      "S.I.P.I.",
+      "СИПИ",
+      "бар СИПИ",
+      "СИПИ Пловдив",
+      "бар Пловдив",
+      "бар Капана",
+      "Пловдив",
+      "Капана",
+      "коктейл бар Пловдив",
+      "коктейл бар Капана",
+      "парти",
+      "коктейли",
+      "атмосфера",
+      "нощен живот",
+      "меню",
+      "SIPI",
+      "bar SIPI",
+      "Sipi Plovdiv",
+      "bar Plovdiv",
+      "bar Kapana",
+      "Plovdiv",
+      "Kapana",
+      "cocktail bar Plovdiv",
+      "cocktail bar Kapana",
+      "parties",
+      "cocktails",
+      "vibe",
+      "nightlife",
+      "menu",
+    ];
+  } else if (locale.params.locale === "en") {
+    title = "Menu | sipi.bg";
+    description = "Browse our menu.";
+    keywords = [
+      "S.I.P.I.",
+      "СИПИ",
+      "бар СИПИ",
+      "СИПИ Пловдив",
+      "бар Пловдив",
+      "бар Капана",
+      "Пловдив",
+      "Капана",
+      "коктейл бар Пловдив",
+      "коктейл бар Капана",
+      "парти",
+      "коктейли",
+      "атмосфера",
+      "нощен живот",
+      "меню",
+      "SIPI",
+      "bar SIPI",
+      "Sipi Plovdiv",
+      "bar Plovdiv",
+      "bar Kapana",
+      "Plovdiv",
+      "Kapana",
+      "cocktail bar Plovdiv",
+      "cocktail bar Kapana",
+      "parties",
+      "cocktails",
+      "vibe",
+      "nightlife",
+      "menu",
+    ];
+  }
+
+  return {
+    title,
+    description,
+    keywords,
+  };
+}
 
 export default async function MenuPage({ params: { locale } }) {
   const { resources } = await initTranslations(locale, ["menu"]);

@@ -3,11 +3,95 @@ import Party from "../../components/Party/Party";
 import initTranslations from "@/app/i18n";
 import TranslationsProvider from "../../components/TranslationsProvider";
 
-export const metadata = {
-  title: "Make a party",
-  description:
-    "Make your own party. Browse our options for creating the perfect party for you.",
-};
+export async function generateMetadata(locale) {
+  let title, description, keywords;
+
+  if (locale.params.locale === "bg") {
+    title = "Направи парти | sipi.bg";
+    description =
+      "Направете свое собствено парти. Разгледайте нашите възможности за създаване на перфектната вечер за вас.";
+    keywords = [
+      "S.I.P.I.",
+      "СИПИ",
+      "бар СИПИ",
+      "СИПИ Пловдив",
+      "бар Пловдив",
+      "бар Капана",
+      "Пловдив",
+      "Капана",
+      "коктейл бар Пловдив",
+      "коктейл бар Капана",
+      "парти",
+      "коктейли",
+      "атмосфера",
+      "нощен живот",
+      "направи си парти",
+      "градина Пловдив",
+      "тераса Пловдив",
+      "SIPI",
+      "bar SIPI",
+      "Sipi Plovdiv",
+      "bar Plovdiv",
+      "bar Kapana",
+      "Plovdiv",
+      "Kapana",
+      "cocktail bar Plovdiv",
+      "cocktail bar Kapana",
+      "parties",
+      "cocktails",
+      "vibe",
+      "nightlife",
+      "make a party",
+      "garden Plovdiv",
+      "terrace Plovdiv",
+    ];
+  } else if (locale.params.locale === "en") {
+    title = "Make a party | sipi.bg";
+    description =
+      "Make your own party. Browse our options for creating the perfect party for you.";
+    keywords = [
+      "S.I.P.I.",
+      "СИПИ",
+      "бар СИПИ",
+      "СИПИ Пловдив",
+      "бар Пловдив",
+      "бар Капана",
+      "Пловдив",
+      "Капана",
+      "коктейл бар Пловдив",
+      "коктейл бар Капана",
+      "парти",
+      "коктейли",
+      "атмосфера",
+      "нощен живот",
+      "направи си парти",
+      "градина Пловдив",
+      "тераса Пловдив",
+      "SIPI",
+      "bar SIPI",
+      "Sipi Plovdiv",
+      "bar Plovdiv",
+      "bar Kapana",
+      "Plovdiv",
+      "Kapana",
+      "cocktail bar Plovdiv",
+      "cocktail bar Kapana",
+      "parties",
+      "cocktails",
+      "vibe",
+      "nightlife",
+      "make a party",
+      "garden Plovdiv",
+      "terrace Plovdiv",
+    ];
+  }
+
+  return {
+    title,
+    description,
+    keywords,
+  };
+}
 
 export default async function MakeAPartyPage({ params: { locale } }) {
   const { resources } = await initTranslations(locale, ["make-a-party"]);
