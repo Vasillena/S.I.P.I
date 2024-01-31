@@ -86,10 +86,22 @@ export async function generateMetadata(locale) {
     ];
   }
 
+  const alternates = {
+    canonical: "/make-a-party",
+    languages: {
+      bg: "/make-a-party",
+      en: "/en/make-a-party",
+    },
+  };
+
+  const metadataBase = new URL("https://sipi.bg");
+
   return {
     title,
     description,
     keywords,
+    alternates,
+    metadataBase,
   };
 }
 

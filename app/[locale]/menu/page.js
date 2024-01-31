@@ -76,10 +76,22 @@ export async function generateMetadata(locale) {
     ];
   }
 
+  const alternates = {
+    canonical: "/menu",
+    languages: {
+      bg: "/menu",
+      en: "/en/menu",
+    },
+  };
+
+  const metadataBase = new URL("https://sipi.bg");
+
   return {
     title,
     description,
     keywords,
+    alternates,
+    metadataBase,
   };
 }
 
