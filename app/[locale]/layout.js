@@ -100,12 +100,22 @@ export async function generateMetadata(locale) {
 
   const metadataBase = new URL("https://sipi.bg");
 
+  const openGraphImages = [
+    {
+      url: "../../public/opengraph-image.pn",
+      width: 1200,
+      height: 630,
+      alt: "S.I.P.I. Logo",
+    },
+  ];
+
   return {
     title,
     description,
     keywords,
     alternates,
     metadataBase,
+    openGraphImages,
   };
 }
 
