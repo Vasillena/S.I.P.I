@@ -72,7 +72,7 @@ export default function LanguageChanger() {
     <>
       {showCookieConsent && (
         <CookieConsent
-          style={{ background: "#f170a9" }}
+          style={{ background: "#f170a9", color: "black" }}
           buttonStyle={{
             fontFamily: "inherit",
             backgroundColor: "white",
