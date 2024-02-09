@@ -83,7 +83,7 @@ export async function generateMetadata(locale) {
   }
 
   const alternates = {
-    canonical: "/reserve",
+    canonical: locale.params.locale === "en" ? "en/reserve" : "/reserve",
     languages: {
       bg: "/reserve",
       en: "/en/reserve",

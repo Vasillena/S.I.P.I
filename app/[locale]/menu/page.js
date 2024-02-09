@@ -77,7 +77,7 @@ export async function generateMetadata(locale) {
   }
 
   const alternates = {
-    canonical: "/menu",
+    canonical: locale.params.locale === "en" ? "en/menu" : "/menu",
     languages: {
       bg: "/menu",
       en: "/en/menu",

@@ -63,6 +63,7 @@ export default function ImageSlideshow2() {
           key={index}
           src={image.image}
           className={index === currentImageIndex ? classes.active : ""}
+          fill={true}
           alt={image.alt}
         />
       ))}

@@ -79,7 +79,7 @@ export async function generateMetadata(locale) {
   }
 
   const alternates = {
-    canonical: "/about-us",
+    canonical: locale.params.locale === "en" ? "en/about-us" : "/about-us",
     languages: {
       bg: "/about-us",
       en: "/en/about-us",

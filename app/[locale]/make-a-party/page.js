@@ -87,7 +87,8 @@ export async function generateMetadata(locale) {
   }
 
   const alternates = {
-    canonical: "/make-a-party",
+    canonical:
+      locale.params.locale === "en" ? "en/make-a-party" : "/make-a-party",
     languages: {
       bg: "/make-a-party",
       en: "/en/make-a-party",
