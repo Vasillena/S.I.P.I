@@ -4,12 +4,12 @@ import { useState } from "react";
 import Image from "next/image";
 import classes from "./Menu.module.css";
 
-import image1 from "@/public/menu-1.png";
-import image2 from "@/public/menu-2.png";
-import image3 from "@/public/menu-3.png";
-import image4 from "@/public/menu-4.png";
-import image5 from "@/public/menu-5.png";
-import image6 from "@/public/menu-6.png";
+import image1 from "@/public/menu-1.svg";
+import image2 from "@/public/menu-2.svg";
+import image3 from "@/public/menu-3.svg";
+import image4 from "@/public/menu-4.svg";
+import image5 from "@/public/menu-5.svg";
+import image6 from "@/public/menu-6.svg";
 
 import menuListEN from "../../menuList/menuList.json";
 import menuListBG from "../../menuList/menuListBG.json";
@@ -110,7 +110,7 @@ export default function Menu() {
               className={classes["menu-icon"]}
               onClick={() => setSelectedTab("Hot Drinks")}
             >
-              <Image src={image1} alt="Coffee icon" />
+              <Image width={100} height={100} src={image1} alt="Coffee icon" />
             </button>
             <p className={classes["menu-titles"]}>{t("hot-drinks")}</p>
           </div>
@@ -119,7 +119,12 @@ export default function Menu() {
               className={classes["menu-icon"]}
               onClick={() => setSelectedTab("Soft Drinks")}
             >
-              <Image src={image2} alt="Soft drinks icon" />
+              <Image
+                width={100}
+                height={100}
+                src={image2}
+                alt="Soft drinks icon"
+              />
             </button>
             <p className={classes["menu-titles"]}>{t("soft-drinks")}</p>
           </div>
@@ -128,7 +133,12 @@ export default function Menu() {
               className={classes["menu-icon"]}
               onClick={() => setSelectedTab("Cocktails")}
             >
-              <Image src={image3} alt="Cocktail icon" />
+              <Image
+                width={100}
+                height={100}
+                src={image3}
+                alt="Cocktail icon"
+              />
             </button>
             <p className={classes["menu-titles"]}>{t("cocktails")}</p>
           </div>
@@ -137,7 +147,7 @@ export default function Menu() {
               className={classes["menu-icon"]}
               onClick={() => setSelectedTab("Wine")}
             >
-              <Image src={image4} alt="Wine icon" />
+              <Image width={100} height={100} src={image4} alt="Wine icon" />
             </button>
             <p className={classes["menu-titles"]}>{t("wine")}</p>
           </div>
@@ -146,7 +156,7 @@ export default function Menu() {
               className={classes["menu-icon"]}
               onClick={() => setSelectedTab("Alcohol")}
             >
-              <Image src={image5} alt="Alcohol icon" />
+              <Image width={100} height={100} src={image5} alt="Alcohol icon" />
             </button>
             <p className={classes["menu-titles"]}>{t("alcohol")}</p>
           </div>
@@ -155,7 +165,7 @@ export default function Menu() {
               className={classes["menu-icon"]}
               onClick={() => setSelectedTab("Beer")}
             >
-              <Image src={image6} alt="Beer icon" />
+              <Image width={100} height={100} src={image6} alt="Beer icon" />
             </button>
             <p className={classes["menu-titles"]}>{t("beer")}</p>
           </div>

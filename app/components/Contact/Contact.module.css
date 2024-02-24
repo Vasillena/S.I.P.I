@@ -9,7 +9,7 @@
 }
 
 .contact-image {
-  width: 20vw;
+  width: 14vw;
   height: auto;
   animation-duration: 5s;
   animation-iteration-count: infinite;
@@ -62,7 +62,7 @@
   }
 
   .contact-image {
-    width: 30vw;
+    width: 24vw;
   }
 }
 
@@ -73,6 +73,6 @@
   }
 
   .contact-image {
-    width: 50vw;
+    width: 40vw;
   }
 }

@@ -9,8 +9,8 @@ import image4 from "@/public/20.png";
 import image5 from "@/public/21.png";
 import image6 from "@/public/22.png";
 
-import trail1 from "@/public/trail.png";
-import trail2 from "@/public/trail-2.png";
+import trail1 from "@/public/trail.svg";
+import trail2 from "@/public/trail-2.svg";
 
 import initTranslations from "@/app/i18n";
 

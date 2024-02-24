@@ -57,7 +57,7 @@
 }
 
 .home-link img {
-  width: 6em;
+  width: 10em;
   height: auto;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -121,7 +121,7 @@
   }
 
   .home-link img {
-    width: 3.5em;
+    width: 6em;
   }
 
   .nav {

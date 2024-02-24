@@ -6,9 +6,9 @@
 }
 
 .who-are-we img {
-  width: 100%;
+  width: 80%;
   height: auto;
-  margin-top: 1em;
+  margin: 6em auto;
 }
 
 @media (min-width: 701px) and (max-width: 1120px) {

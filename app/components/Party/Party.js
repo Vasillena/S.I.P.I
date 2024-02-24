@@ -6,9 +6,9 @@ import Image from "next/image";
 
 import classes from "./Party.module.css";
 
-import image1 from "@/public/party-icon-1.png";
-import image2 from "@/public/party-icon-2.png";
-import image3 from "@/public/party-icon-3.png";
+import image1 from "@/public/party-icon-1.svg";
+import image2 from "@/public/party-icon-2.svg";
+import image3 from "@/public/party-icon-3.svg";
 
 import image4 from "@/public/party-1.png";
 import image5 from "@/public/party-2.png";

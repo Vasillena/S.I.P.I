@@ -30,7 +30,7 @@
 }
 
 .spots img {
-  width: 5vw;
+  width: 3vw;
   height: auto;
 }
 
@@ -118,6 +118,11 @@
     width: 5.5em;
   }
 
+  .spots img {
+    width: 5vw;
+    height: auto;
+  }
+
   .text-container p {
     padding: 0 12vw;
   }
@@ -135,6 +140,11 @@
 
   .spots button {
     width: 4em;
+  }
+
+  .spots img {
+    width: 6vw;
+    height: auto;
   }
 
   .text-container p {

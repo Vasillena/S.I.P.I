@@ -8,9 +8,9 @@ import Image from "next/image";
 
 import classes from "./Navigation.module.css";
 
-import logoImg from "@/public/logo.png";
-import logoImg2 from "@/public/logo2.png";
-import menuBars from "@/public/menu-bars.png";
+import logoImg from "@/public/logo.svg";
+import logoImg2 from "@/public/logo2.svg";
+import menuBars from "@/public/menu-bars.svg";
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

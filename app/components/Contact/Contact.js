@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import classes from "./Contact.module.css";
 
-import frog from "@/public/frog.png";
+import frog from "@/public/frog.svg";
 
 import initTranslations from "@/app/i18n";
 
