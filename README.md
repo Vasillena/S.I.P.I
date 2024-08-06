@@ -37,7 +37,7 @@ Open http://localhost:3000 in your browser to view the application.
 
 **Key Features**
 
-S.I.P.I. is a real place in Plovdiv and this is soon-to-be it's official website. All visitors can explore the bar, the menu and the contact information
+S.I.P.I. is a real place in Plovdiv and this is it's official website. All visitors can explore the bar, the menu and the contact information
 
 ## 🏛️ Structure and Architecture
 </div>
