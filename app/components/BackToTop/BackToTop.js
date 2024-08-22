@@ -1,13 +1,11 @@
 "use client";
 
-import { Gloria_Hallelujah } from "next/font/google";
-
 import { useEffect, useState } from "react";
+
+import { Gloria_Hallelujah } from "next/font/google";
 import Image from "next/image";
-
-import classes from "./BackToTop.module.css";
-
 import backToTop from "@/public/back-to-top.png";
+import classes from "./BackToTop.module.css";
 
 const gloriaHallelujah = Gloria_Hallelujah({
   subsets: ["latin"],

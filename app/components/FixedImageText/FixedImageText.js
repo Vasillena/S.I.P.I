@@ -1,5 +1,4 @@
 import classes from "./FixedImageText.module.css";
-
 import initTranslations from "@/app/i18n";
 
 export default async function FixedImageText({ locale }) {

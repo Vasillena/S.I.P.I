@@ -1,8 +1,8 @@
 "use client";
 
-import { Loader } from "@googlemaps/js-api-loader";
 import { useEffect, useRef } from "react";
 
+import { Loader } from "@googlemaps/js-api-loader";
 import classes from "./GoogleMaps.module.css";
 
 export default function GoogleMaps() {

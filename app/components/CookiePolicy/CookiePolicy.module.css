@@ -1,0 +1,52 @@
+.policy {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1vw;
+  text-align: center;
+  padding: 20vh 10vw 0 10vw;
+}
+
+.table {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.t {
+  border-collapse: collapse;
+}
+
+.tr {
+  display: table-row;
+  border-collapse: collapse;
+}
+
+.th {
+  border: 1px solid gray;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+@media (min-width: 701px) and (max-width: 1120px) {
+  .policy {
+    font-size: 1.5vw;
+    padding: 20vh 12vw 8vh 12vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .policy {
+    font-size: 3vw;
+    padding: 10em 12vw 0 12vw;
+  }
+
+  .table {
+    margin: 0 10px;
+  }
+
+  .th {
+    padding: 2px;
+  }
+}

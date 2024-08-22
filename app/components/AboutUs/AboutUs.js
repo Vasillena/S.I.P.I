@@ -1,18 +1,14 @@
 import Image from "next/image";
-
 import classes from "./AboutUs.module.css";
-
 import image1 from "@/public/17.png";
 import image2 from "@/public/18.png";
 import image3 from "@/public/19.png";
 import image4 from "@/public/20.png";
 import image5 from "@/public/21.png";
 import image6 from "@/public/22.png";
-
+import initTranslations from "@/app/i18n";
 import trail1 from "@/public/trail.svg";
 import trail2 from "@/public/trail-2.svg";
-
-import initTranslations from "@/app/i18n";
 
 export default async function AboutUs({ locale }) {
   const { t } = await initTranslations(locale, ["about-us"]);

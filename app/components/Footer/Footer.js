@@ -1,7 +1,5 @@
 import Link from "next/link";
-
 import classes from "./Footer.module.css";
-
 import initTranslations from "@/app/i18n";
 
 export default async function Footer({ locale }) {
