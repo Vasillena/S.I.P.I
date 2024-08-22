@@ -1,13 +1,14 @@
 import "./globals.css";
-import { Gloria_Hallelujah, Shantell_Sans } from "next/font/google";
-import Navigation from "../components/Navigation/Navigation";
-import Footer from "../components/Footer/Footer";
-import Socials from "../components/Socials/Socials";
-import BackToTop from "../components/BackToTop/BackToTop";
 
-import initTranslations from "@/app/i18n";
-import TranslationsProvider from "../components/TranslationsProvider";
+import { Gloria_Hallelujah, Shantell_Sans } from "next/font/google";
+
+import BackToTop from "../components/BackToTop/BackToTop";
+import Footer from "../components/Footer/Footer";
 import LanguageChanger from "../components/LanguageChanger/LanguageChanger";
+import Navigation from "../components/Navigation/Navigation";
+import Socials from "../components/Socials/Socials";
+import TranslationsProvider from "../components/TranslationsProvider";
+import initTranslations from "@/app/i18n";
 
 const gloriaHallelujah = Gloria_Hallelujah({
   subsets: ["latin"],
@@ -90,14 +91,6 @@ export async function generateMetadata(locale) {
     ];
   }
 
-  // const alternates = {
-  //   canonical: "/",
-  //   languages: {
-  //     bg: "/",
-  //     en: "/en",
-  //   },
-  // };
-
   const alternates = {
     canonical: locale.params.locale === "en" ? "/en" : "/",
     languages: {
@@ -106,7 +99,9 @@ export async function generateMetadata(locale) {
     },
   };
 
-  const metadataBase = new URL("https://sipi.bg");
+  const metadataBase = new URL(
+    `https://sipi.bg${locale.params.locale === "en" ? "/en" : "/"}`
+  );
 
   return {
     title,
