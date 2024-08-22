@@ -1,7 +1,6 @@
 import Menu from "../../components/Menu/Menu";
-
-import initTranslations from "@/app/i18n";
 import TranslationsProvider from "../../components/TranslationsProvider";
+import initTranslations from "@/app/i18n";
 
 export async function generateMetadata(locale) {
   let title, description, keywords;
@@ -84,7 +83,9 @@ export async function generateMetadata(locale) {
     },
   };
 
-  const metadataBase = new URL("https://sipi.bg");
+  const metadataBase = new URL(
+    `https://sipi.bg${locale.params.locale === "en" ? "/en" : "/"}`
+  );
 
   return {
     title,
