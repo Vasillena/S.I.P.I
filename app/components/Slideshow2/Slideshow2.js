@@ -1,11 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
+
 import Image from "next/image";
-
 import classes from "./Slideshow2.module.css";
-
 import image1 from "@/public/5.png";
+import image10 from "@/public/14.png";
+import image11 from "@/public/15.png";
+import image12 from "@/public/16.png";
 import image2 from "@/public/6.png";
 import image3 from "@/public/7.png";
 import image4 from "@/public/8.png";
@@ -14,9 +16,6 @@ import image6 from "@/public/10.png";
 import image7 from "@/public/11.png";
 import image8 from "@/public/12.png";
 import image9 from "@/public/13.png";
-import image10 from "@/public/14.png";
-import image11 from "@/public/15.png";
-import image12 from "@/public/16.png";
 
 const images = [
   { image: image1, alt: "Party" },

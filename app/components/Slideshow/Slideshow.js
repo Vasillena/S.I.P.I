@@ -1,10 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
+
 import Image from "next/image";
-
 import classes from "./Slideshow.module.css";
-
 import image1 from "@/public/1.jpg";
 import image2 from "@/public/2.jpg";
 import image3 from "@/public/3.jpg";

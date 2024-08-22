@@ -1,25 +1,20 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import Link from "next/link";
+import { useEffect, useState } from "react";
+
 import Image from "next/image";
-
+import Link from "next/link";
+import arrow from "@/public/arrow.gif";
 import classes from "./Party.module.css";
-
 import image1 from "@/public/party-icon-1.svg";
 import image2 from "@/public/party-icon-2.svg";
 import image3 from "@/public/party-icon-3.svg";
-
 import image4 from "@/public/party-1.png";
 import image5 from "@/public/party-2.png";
 import image6 from "@/public/party-3.png";
-
 import image7 from "@/public/party-4.png";
 import image8 from "@/public/party-5.png";
 import image9 from "@/public/party-6.png";
-
-import arrow from "@/public/arrow.gif";
-
 import { useTranslation } from "react-i18next";
 
 export default function Party() {

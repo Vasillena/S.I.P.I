@@ -1,10 +1,7 @@
 import { Gloria_Hallelujah } from "next/font/google";
-
-import Link from "next/link";
 import Image from "next/image";
-
+import Link from "next/link";
 import classes from "./Socials.module.css";
-
 import image1 from "@/public/socials-1.svg";
 import image2 from "@/public/socials-2.svg";
 import image3 from "@/public/socials-3.svg";

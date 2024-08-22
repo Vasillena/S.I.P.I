@@ -1,21 +1,19 @@
 "use client";
 
-import { Gloria_Hallelujah } from "next/font/google";
-
 import { useEffect, useState } from "react";
 
+import { Gloria_Hallelujah } from "next/font/google";
 import Image from "next/image";
 import classes from "./LanguageChanger.module.css";
-
 import flagBG from "@/public/flagBG.png";
 import flagEN from "@/public/flagEN.png";
-import language from "@/public/language.svg";
-
-import { useRouter } from "next/navigation";
-import { usePathname } from "next/navigation";
-import { useTranslation } from "react-i18next";
 import i18nConfig from "@/i18nConfig";
-import CookieConsent from "react-cookie-consent";
+import language from "@/public/language.svg";
+import { usePathname } from "next/navigation";
+import { useRouter } from "next/navigation";
+import { useTranslation } from "react-i18next";
+
+// import CookieConsent from "react-cookie-consent";
 
 const gloriaHallelujah = Gloria_Hallelujah({
   subsets: ["latin"],
@@ -70,7 +68,7 @@ export default function LanguageChanger() {
 
   return (
     <>
-      {showCookieConsent && (
+      {/* {showCookieConsent && (
         <CookieConsent
           style={{ background: "#f170a9", color: "black" }}
           buttonStyle={{
@@ -81,7 +79,7 @@ export default function LanguageChanger() {
         >
           Our site uses cookies.
         </CookieConsent>
-      )}
+      )} */}
 
       <div
         className={`${classes.language} ${gloriaHallelujah.className} ${

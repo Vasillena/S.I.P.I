@@ -1,9 +1,6 @@
 import Image from "next/image";
-
 import classes from "./WhoAreWe.module.css";
-
 import divider from "@/public/divider.svg";
-
 import initTranslations from "@/app/i18n";
 
 export default async function WhoAreWe({ locale }) {

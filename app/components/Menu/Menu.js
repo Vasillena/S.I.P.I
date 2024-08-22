@@ -1,19 +1,16 @@
 "use client";
 
-import { useState } from "react";
 import Image from "next/image";
 import classes from "./Menu.module.css";
-
 import image1 from "@/public/menu-1.svg";
 import image2 from "@/public/menu-2.svg";
 import image3 from "@/public/menu-3.svg";
 import image4 from "@/public/menu-4.svg";
 import image5 from "@/public/menu-5.svg";
 import image6 from "@/public/menu-6.svg";
-
-import menuListEN from "../../menuList/menuList.json";
 import menuListBG from "../../menuList/menuListBG.json";
-
+import menuListEN from "../../menuList/menuList.json";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 export default function Menu() {
@@ -48,9 +45,9 @@ export default function Menu() {
             categoryName = "Безалкохолни Напитки";
           }
           break;
-        case "Cocktails":
+        case "Mixed Drinks":
           if (locale == "bg") {
-            categoryName = "Коктейли";
+            categoryName = "Смесени напитки";
           }
           break;
         case "Wine":
@@ -131,7 +128,7 @@ export default function Menu() {
           <div className={classes["menu-section"]}>
             <button
               className={classes["menu-icon"]}
-              onClick={() => setSelectedTab("Cocktails")}
+              onClick={() => setSelectedTab("Mixed Drinks")}
             >
               <Image
                 width={100}

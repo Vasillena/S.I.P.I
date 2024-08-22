@@ -1,16 +1,13 @@
 "use client";
 
-import { useTranslation } from "react-i18next";
-
-import { useState } from "react";
-import Link from "next/link";
 import Image from "next/image";
-
+import Link from "next/link";
 import classes from "./Navigation.module.css";
-
 import logoImg from "@/public/logo.svg";
 import logoImg2 from "@/public/logo2.svg";
 import menuBars from "@/public/menu-bars.svg";
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -102,6 +99,11 @@ export default function Navigation() {
               >
                 {t("reserve")}
               </Link>
+              <Link
+                href="/policy"
+                className={classes["navbar-link"]}
+                onClick={closeMenu}
+              />
             </li>
           </ul>
         </nav>
